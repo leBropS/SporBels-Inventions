@@ -1,0 +1,85 @@
+{
+  "name": "MiG-15",
+  "description": "A soviet transonic jet fighter."
+  "flying": true,
+  "health": 600,
+  "armor": 4,
+  "circleTarget": true,
+  "research": {
+    "parent": "airbuilder",
+      "requirements": [
+      "silicon/1200",
+      "copper/800",
+      "titanium/1600",
+      "plastanium/800",
+      "aluminum/1200",
+    ]
+  },
+
+  "speed": 9.2,
+  "accel": 0.01,
+  "drag": 0.01,
+  "rotateSpeed": 1.2,
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 4,
+  "engineColor": #6ecdec,
+  "hitSize": 36,
+
+  "range": 160,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 16,
+      "x": 0,
+      "reload": 15,
+      "recoil": 0.5,
+      "shake": 1,
+      "shootSound": "shootSpectre",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 24,
+        "damage": 75,
+		"buildingDamageMultiplier": 0.25,
+		"pierce": true,
+		"pierceCap": 3,
+        "lifetime": 30,
+        "width": 6,
+        "height": 28,
+		"inaccuracy": 2,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+	{
+      "y": 12,
+      "x": 8,
+	  "mirror": true,
+      "reload": 6,
+      "recoil": 0.5,
+      "shake": 1,
+      "shootSound": "shootSpectre",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 24,
+        "damage": 15,
+		"buildingDamageMultiplier": 0.25,
+		"pierce": true,
+		"pierceCap": 3,
+        "lifetime": 30,
+        "width": 4,
+        "height": 18,
+		"inaccuracy": 2,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ]
+}

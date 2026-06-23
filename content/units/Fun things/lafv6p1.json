@@ -1,0 +1,98 @@
+{
+  "name": "Lore-Accurate FV-6P1",
+  "description": "I'm a Ghaheya glazer."
+  "flying": true,
+  "health": 2650,
+  "armor": 28,
+  "circleTarget": true,
+
+  "speed": 64,
+  "accel": 0.01,
+  "drag": 0.01,
+  "rotateSpeed": 5,
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 5,
+  "engineColor": #6ecdec,
+  "hitSize": 38,
+
+  "range": 180,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 16,
+      "x": 0,
+      "reload": 6,
+      "recoil": 0.5,
+      "shake": 1,
+      "shootSound": "shootSpectre",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 32,
+        "damage": 80,
+		"buildingDamageMultiplier": 0.5,
+	    "armorMultiplier": 0.25
+		"pierce": true,
+		"pierceCap": 9999,
+        "lifetime": 200,
+        "width": 4,
+        "height": 20,
+		"inaccuracy": 1,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    },
+	{
+	  "y": 16,
+      "x": 0,
+      "reload": 20,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootMissile",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 120,
+        "status": "sabotaged",
+        "statusDuration": 600,
+        "speed": 48,
+	    "splashDamage": 120,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 64,
+        "splashDamagePierce": true,
+	    "lifetime": 40,
+	    "width": 12,
+	    "height": 36,
+	    "makeFire": true,
+        "hitShake": 8,
+        "colorFront": #d4c69e,
+	    "colorBack": #d4c69e,
+	    "homingRange": 512,
+	    "homingPower": 0.1,
+		"inaccuracy": 7.5,
+	  }
+    },
+	{
+    "type": "PointDefenseWeapon",
+    "x": 0,
+    "y": 0,
+    "rotate": true,
+    "reload": 1,
+	"rotateSpeed": 999,
+	"shootSound": "shootSegment",
+
+    "bullet": {
+      "type": "BulletType",
+      "damage": 50,
+      "maxRange": 8000,
+    }
+  }
+  ],
+}

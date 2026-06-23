@@ -1,0 +1,65 @@
+{
+  "name": "Lore Accurate A-10",
+  "description": "Hyperbuffed Thunderbolt II.",
+  "flying": true,
+  "health": 1440,
+  "armor": 12,
+  "circleTarget": true,
+
+  "speed": 11.2,
+  "accel": 0.01,
+  "drag": 0.01,
+  "rotateSpeed": 8,
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 4,
+  "engineColor": #6ecdec,
+  "hitSize": 40,
+
+  "range": 160,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+	{
+      "y": 18,
+      "x": 0.0,
+      "reload": 1,
+      "recoil": 4,
+      "shake": 6,
+      "shootSound": "shootSpectre",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 24,
+        "damage": 120,
+		"pierce": true,
+		"pierceCap": 999,
+        "lifetime": 20,
+        "width": 4,
+        "height": 16,
+		"inaccuracy": 5,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+		"fragBullets": 6
+		"fragVelocityMin": 0.8
+		"fragVelocityMax": 1.2
+		"fragLifeMin": 0.8
+		"fragLifeMax": 1.2
+		"pierceFragCap": 1
+		"fragBullet": {
+            "type": "BasicBulletType",
+            "damage": 15,
+            "bulletWidth": 2,
+            "bulletHeight": 8,
+			"speed": 6
+            "lifetime": 10
+        }
+
+      }
+    }
+  ]
+}

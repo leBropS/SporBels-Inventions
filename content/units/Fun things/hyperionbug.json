@@ -1,0 +1,60 @@
+{
+  "type": mech,
+  "name": "Hyperion Bug",
+  "description": "A creature made out of Hyperion?"
+  "immunities": [decay],
+  "flying": false,
+  "health": 1000,
+  "armor": 3,
+  "omniMovement": true,
+  "hidden": false,
+  "lowAltitude": true,
+  
+  "speed": 2,
+  "accel": 0.5,
+  "drag": 0.5,
+  "rotateSpeed": 20,
+  "hitSize": 20,
+  "collidesTiles": true,
+  "canDrown": true,
+
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 2.5,
+      "x": 0,
+      "reload": 45,
+      "recoil": 0.5,
+      "shake": 0.1,
+      "shootSound": "shootSpectre",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 1,
+        "damage": 50,
+        "lifetime": 16,
+        "width": 4,
+        "height": 16,
+		"inaccuracy": 2,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ]
+  "abilities": [
+  {
+    "type": liquidExplodeAbility,
+    "liquid": liquidhyperion,
+    "amount": 80,
+    "radius": 16
+  },
+  {
+    "type": "unitSpawnAbility",
+    "unit": "hyperionbug",
+	"spawnTime": 7200,
+	"parentizeEffects": true,
+    },
+]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Self Replicator V2",
+  "description": "A significantly stronger version of the replicator."
+  "flying": true,
+  "health": 250,
+  "armor": 2,
+  "circleTarget": true,
+
+  "speed": 5,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 20,
+
+  "hitSize": 12,
+
+  "range": 100,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 2,
+      "x": 2,
+	  "mirror": true,
+      "reload": 15,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootDuo",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 7.5,
+        "damage": 15,
+        "lifetime": 45,
+		"makeFire": true,
+        "width": 4,
+        "height": 8,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "unitSpawnAbility",
+      "unit": "selfreplicatorv2",
+	  "spawnTime": 600,
+	  "parentizeEffects": true,
+    },
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Saab JAS 39 Gripen Prime",
+  "description": "haha gripen goes brrrr (i turned the gripen into a boss)"
+  "flying": true,
+  "health": 50000,
+  "armor": 50,
+  "circleTarget": true,
+
+  "speed": 50,
+  "accel": 0.01,
+  "drag": 0.01,
+  "rotateSpeed": 5,
+  
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 5,
+  "engineColor": #6ecdec,
+  "hitSize": 76,
+
+  "range": 200,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+	{
+	  "y": 32,
+      "x": 0,
+      "reload": 30,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootMissile",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 500,
+        "status": "sabotaged",
+        "statusDuration": 450,
+        "speed": 20,
+	    "splashDamage": 1000,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 128,
+        "splashDamagePierce": true,
+	    "lifetime": 60,
+	    "width": 24,
+	    "height": 48,
+	    "makeFire": true,
+        "hitShake": 8,
+        "colorFront": #d4c69e,
+	    "colorBack": #d4c69e,
+	    "homingRange": 1024,
+	    "homingPower": 0.1,
+		"inaccuracy": 5,
+	  }
+    },
+	{
+    "type": "PointDefenseWeapon",
+    "x": 0,
+    "y": 0,
+    "rotate": true,
+    "reload": 1,
+	"rotateSpeed": 999,
+	"targetInterval": 1,
+	"targetSwitchInterval": 1,
+	"shootSound": "shootSegment",
+    "bullet": {
+      "type": "BulletType",
+      "damage": 5,
+      "maxRange": 1200,
+    }
+  }
+  ],
+    "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 200,
+      "regen": 1,
+      "max": 12000,
+      "cooldown": 300,
+	  "sides": 8,
+    }
+	{
+      "type": "unitSpawnAbility",
+      "unit": "lajas39gripen",
+	  "spawnTime": 600,
+	  "parentizeEffects": true,
+    },
+  ]
+}

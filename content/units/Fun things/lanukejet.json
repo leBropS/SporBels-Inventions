@@ -1,0 +1,58 @@
+{
+  "name": "Lore-Accurate Nuclear Purpose Jet",
+  "description": "There's only one difference. It shoots the same nukes as the WMD launcher now."
+  "flying": true,
+  "health": 1000,
+  "armor": 10,
+  "circleTarget": true,
+
+  "speed": 25,
+  "accel": 0.01,
+  "drag": 0.01,
+  "rotateSpeed": 1.0,
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 5,
+  "engineColor": #6ecdec,
+  "hitSize": 38,
+
+  "range": 180,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+	{
+	  "y": 16,
+      "x": 0,
+      "reload": 300,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootMissile",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 5000,
+        "speed": 20,
+	    "splashDamage": 10000,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 2000,
+        "splashDamagePierce": false,
+	    "lifetime": 240,
+	    "width": 24,
+	    "height": 96,
+	    "makeFire": true,
+        "hitShake": 250,
+	    "hittable": false,
+	    "reflectable": false,
+	    "trailColor": #fff800,
+	    "trailInterval": 1,
+	    "trailParam": 5.0,
+	    "trailLength": 2.0,
+      },
+    },
+  ],
+}

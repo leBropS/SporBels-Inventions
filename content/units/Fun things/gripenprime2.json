@@ -1,0 +1,131 @@
+{
+  "name": "Saab JAS 39 Gripen Prime Phase 2",
+  "description": "Second Phase of the boss. Much stronger, but is slower."
+  "flying": true,
+  "health": 50000,
+  "armor": 100,
+  "circleTarget": true,
+
+  "speed": 10,
+  "accel": 0.01,
+  "drag": 0.01,
+  "rotateSpeed": 5,
+  
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 5,
+  "engineColor": #6ecdec,
+  "hitSize": 76,
+
+  "range": 200,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+	{
+	  "y": 32,
+      "x": 0,
+      "reload": 600,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootMissile",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 500,
+        "status": "sabotaged",
+        "statusDuration": 450,
+        "speed": 20,
+	    "splashDamage": 1000,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 128,
+        "splashDamagePierce": true,
+	    "lifetime": 60,
+	    "width": 24,
+	    "height": 48,
+	    "makeFire": true,
+        "hitShake": 8,
+        "colorFront": #d4c69e,
+	    "colorBack": #d4c69e,
+	    "homingRange": 1024,
+	    "homingPower": 0.1,
+		"inaccuracy": 5,
+		"fragBullets": 6,
+		"fragVelocityMin": 0.8,
+		"fragVelocityMax": 1.2,
+		"fragLifeMin": 0.8,
+		"fragLifeMax": 1.2,
+		"fragBullet": {
+            "type": "basicBulletType",
+            "damage": 500,
+            "status": "sabotaged",
+            "statusDuration": 450,
+            "speed": 20,
+	        "splashDamage": 1000,
+            "hitEffect": "massiveExplosion",
+            "despawnEffect": "massiveExplosion",
+            "splashDamageRadius": 128,
+            "splashDamagePierce": true,
+	        "lifetime": 60,
+	        "width": 24,
+	        "height": 48,
+	        "makeFire": true,
+            "hitShake": 8,
+            "colorFront": #d4c69e,
+	        "colorBack": #d4c69e,
+	        "homingRange": 1024,
+	        "homingPower": 0.1,
+	    	"fragBullets": 24,
+	    	"fragVelocityMin": 0.9,
+	    	"fragVelocityMax": 1.1,
+	    	"fragLifeMin": 0.9,
+	    	"fragLifeMax": 1.1,
+	    	"fragBullet": {
+                "type": "BasicBulletType",
+                "damage": 50,
+                "bulletWidth": 2,
+                "bulletHeight": 8,
+		    	"speed": 48
+                "lifetime": 40
+            }
+        }
+	  }
+    },
+	{
+    "type": "PointDefenseWeapon",
+    "x": 0,
+    "y": 0,
+    "rotate": true,
+    "reload": 15,
+	"rotateSpeed": 999,
+	"targetInterval": 1,
+	"targetSwitchInterval": 1,
+	"shootSound": "shootSegment",
+    "bullet": {
+      "type": "BulletType",
+      "damage": 999999999999,
+      "maxRange": 1200,
+    }
+  }
+  ],
+    "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 200,
+      "regen": 2,
+      "max": 12000,
+      "cooldown": 300,
+	  "sides": 8,
+    }
+	{
+      "type": "unitSpawnAbility",
+      "unit": "lajas39gripen",
+	  "spawnTime": 60,
+	  "parentizeEffects": true,
+    },
+  ]
+}

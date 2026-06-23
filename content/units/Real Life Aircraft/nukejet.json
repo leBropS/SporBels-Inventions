@@ -1,0 +1,69 @@
+{
+  "name": "Nuclear Purpose Jet",
+  "description": "A jet-powered aircraft with nuclear missiles. [yellow]Considered to be a superweapon. [red]Prohibiting both your and the enemy side's usage of nuclear warheads is reccomended and should be done at all costs."
+  "flying": true,
+  "health": 1000,
+  "armor": 10,
+  "circleTarget": true,
+  "research": {
+    "parent": "jas39gripen",
+      "requirements": [
+      "nuke/10",
+      "advancedmodule/1200",
+      "jetalloy/1000",
+      "plastanium/1000",
+      "hyperion/100",
+    ]
+  },
+
+  "speed": 25,
+  "accel": 0.01,
+  "drag": 0.01,
+  "rotateSpeed": 1.0,
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 5,
+  "engineColor": #6ecdec,
+  "hitSize": 38,
+
+  "range": 180,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+	{
+	  "y": 16,
+      "x": 0,
+      "reload": 300,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootMissile",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 500,
+        "status": "sabotaged",
+        "statusDuration": 450,
+        "speed": 20,
+	    "splashDamage": 1000,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 128,
+        "splashDamagePierce": true,
+	    "lifetime": 60,
+	    "width": 24,
+	    "height": 48,
+	    "makeFire": true,
+        "hitShake": 8,
+        "colorFront": #d4c69e,
+	    "colorBack": #d4c69e,
+	    "homingRange": 512,
+	    "homingPower": 0.05,
+		"inaccuracy": 7.5,
+	  }
+    },
+  ],
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Self Replicator",
+  "description": "A mosquito unit that replicates itself!"
+  "flying": true,
+  "health": 100,
+  "armor": 0,
+  "circleTarget": true,
+
+  "speed": 3,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 15,
+
+  "hitSize": 12,
+
+  "range": 80,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 2,
+      "x": 2,
+	  "mirror": true,
+      "reload": 20,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootDuo",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 5,
+        "damage": 10,
+        "lifetime": 30,
+        "width": 4,
+        "height": 8,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "unitSpawnAbility",
+      "unit": "selfreplicator",
+	  "spawnTime": 900,
+	  "parentizeEffects": true,
+    },
+  ]
+}

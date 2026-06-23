@@ -1,0 +1,54 @@
+{
+  "name": "Kamikaze Drone",
+  "description": "It's like the crawler unit but flying and stronger.",
+  "flying": true,
+  "health": 360,
+  "armor": 3,
+  "circleTarget": true,
+  "research": {
+    "parent": "fa18e",
+      "requirements": [
+      "blast-compound/150",
+      "advancedmodule/20",
+      "aluminum/150",
+      "plastanium/200",
+      "jetalloy/50"
+    ]
+  },
+
+  "speed": 5.0,
+  "accel": 0.01,
+  "drag": 0.01,
+  "rotateSpeed": 1.0,
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 4,
+  "engineColor": #6ecdec,
+  "hitSize": 28,
+
+  "range": 160,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+	{
+      "y": 0.0,
+      "x": 0.0,
+      "reload": 300,
+      "shake": 5,
+
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "splashDamage": 240,
+        "splashDamageRadius": 64,
+        "killShooter": true
+		"buildingDamageMultiplier": 1.5,
+	    "makeFire": true,
+        "hitShake": 16,
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "name": "FV-8.4",
+  "description": "The ultimate jet fighter of this mod. [yellow]Considered to be a superweapon."
+  "flying": true,
+  "health": 1500,
+  "armor": 16,
+  "circleTarget": true,
+  "research": {
+    "parent": "fv6p1",
+      "requirements": [
+      "missile/200",
+      "advancedmodule/800",
+      "jetalloy/400",
+      "supercomputer/120",
+      "hyperion/600",
+    ]
+  },
+
+  "speed": 35,
+  "accel": 0.01,
+  "drag": 0.01,
+  "rotateSpeed": 2.85,
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 5,
+  "engineColor": #6ecdec,
+  "hitSize": 38,
+
+  "range": 180,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 16,
+      "x": 0,
+      "reload": 12,
+      "recoil": 0.5,
+      "shake": 1,
+      "shootSound": "shootSpectre",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 32,
+        "damage": 120,
+		"buildingDamageMultiplier": 0.25,
+	    "armorMultiplier": 0.5
+		"pierce": true,
+		"pierceCap": 2,
+        "lifetime": 20,
+        "width": 4,
+        "height": 20,
+		"inaccuracy": 1,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    },
+	{
+	  "y": 16,
+      "x": 0,
+      "reload": 30,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootMissile",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 120,
+        "status": "sabotaged",
+        "statusDuration": 600,
+        "speed": 48,
+	    "splashDamage": 120,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 32,
+        "splashDamagePierce": true,
+	    "lifetime": 60,
+	    "width": 12,
+	    "height": 36,
+	    "makeFire": true,
+        "hitShake": 8,
+        "colorFront": #d4c69e,
+	    "colorBack": #d4c69e,
+	    "homingRange": 256,
+	    "homingPower": 0.1,
+		"inaccuracy": 7.5,
+	  }
+    },
+	{
+    "type": "PointDefenseWeapon",
+    "x": 0,
+    "y": 0,
+    "rotate": true,
+    "reload": 4,
+	"rotateSpeed": 999,
+	"targetInterval": 4,
+	"targetSwitchInterval": 4,
+	"shootSound": "shootSegment",
+
+    "bullet": {
+      "type": "BulletType",
+      "damage": 40,
+      "maxRange": 1000,
+    }
+  }
+  ],
+    "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 60,
+      "regen": 0.1,
+      "max": 120,
+      "cooldown": 60,
+	  "sides": 6,
+    }
+  ]
+}

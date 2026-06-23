@@ -1,0 +1,61 @@
+{
+  "type": tank,
+  "name": "Panzer IV",
+  "description": "The Panzer IV is a German medium tank."
+  "flying": false,
+  "health": 620,
+  "armor": 3,
+  "hidden": false,
+  "research": {
+    "parent": "groundbuilder",
+      "requirements": [
+      "silicon/150",
+      "steel/500",
+      "shell1/300",
+    ]
+  },
+
+  "speed": 1.6,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 1,
+  "hitSize": 20,
+  "strafePenalty": 1.75,
+  "omniMovement": false,
+  "collidesTiles": true,
+  "canDrown": true,
+  "lowAltitude": true,
+  "crushFragile": true,
+
+  "targetAir": false,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "name": "panzer4-weapon",
+      "x": 0,
+      "y": 0,
+      "reload": 360,
+      "rotate": true,
+	  "rotateSpeed": 1,
+	  "recoil": 0.5
+	  "mirror": false
+	  "shootSound": "shootSpectre",
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 24,
+        "damage": 150,
+		"armorMultiplier": -1.5,
+		"pierce": true,
+		"pierceCap": 2,
+        "lifetime": 20,
+        "width": 8,
+        "height": 28,
+		"inaccuracy": 0.5,
+		"collidesAir": false,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ]
+}

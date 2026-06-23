@@ -1,0 +1,85 @@
+{
+  "name": "Realistic Air Superiority Jet Fighter",
+  "description": "The air superiority class jet fighter is capable of fighting other aircraft well and dominating the skies. [green]Intended to be used for mapping scenarios."
+  "flying": true,
+  "health": 700,
+  "armor": 7,
+  "circleTarget": true,
+
+  "speed": 1.5,
+  "accel": 0.002,
+  "drag": 0.001,
+  "rotateSpeed": 0.3,
+  "strafePenalty": 0.5,
+  "omniMovement": false,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 5,
+  "engineColor": #6ecdec,
+  "hitSize": 40,
+
+  "range": 180,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 16,
+      "x": 0,
+      "reload": 5,
+      "recoil": 0.5,
+      "shake": 1,
+      "shootSound": "shootSpectre",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 20,
+        "damage": 35,
+		"buildingDamageMultiplier": 0.25,
+		"pierce": true,
+		"pierceCap": 1,
+        "lifetime": 10,
+        "width": 6,
+        "height": 26,
+		"inaccuracy": 2,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    },
+	{
+	  "y": 16,
+      "x": 0,
+      "reload": 240,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootMissile",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 120,
+        "status": "sabotaged",
+        "statusDuration": 1800,
+        "speed": 1,
+		"accel": 0.0025,
+		"drag": 0.001,
+	    "splashDamage": 120,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 24,
+        "splashDamagePierce": true,
+	    "lifetime": 1200,
+	    "width": 12,
+	    "height": 36,
+	    "makeFire": true,
+        "hitShake": 8,
+        "colorFront": #d4c69e,
+	    "colorBack": #d4c69e,
+	    "homingRange": 512,
+	    "homingPower": 0.01,
+        "collidesGround": false,
+		"inaccuracy": 7.5,
+	  }
+    },
+  ],
+}

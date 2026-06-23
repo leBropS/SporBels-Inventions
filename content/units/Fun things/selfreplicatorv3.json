@@ -1,0 +1,58 @@
+{
+  "name": "Self Replicator V3",
+  "description": "A significantly stronger version of the replicator V2."
+  "flying": true,
+  "health": 500,
+  "armor": 5,
+  "circleTarget": true,
+
+  "speed": 7,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 25,
+
+  "hitSize": 12,
+
+  "range": 120,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 2,
+      "x": 2,
+	  "mirror": true,
+      "reload": 10,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootDuo",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 10,
+        "damage": 25,
+		"pierce": true,
+		"pierceCap": 3,
+        "lifetime": 60,
+		"makeFire": true,
+        "width": 4,
+        "height": 8,
+		"splashDamage": 10,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 8,
+        "splashDamagePierce": true,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "unitSpawnAbility",
+      "unit": "selfreplicatorv3",
+	  "spawnTime": 300,
+	  "parentizeEffects": true,
+    },
+  ]
+}
