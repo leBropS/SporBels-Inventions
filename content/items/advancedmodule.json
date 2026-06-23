@@ -1,0 +1,15 @@
+{
+  "name": "Advanced Module",
+  "description": "Important and expensive components of advanced structures.",
+  "hardness": 4,
+  "radioactivity": 0.0,
+  "explosiveness": 0.15,
+  "cost": 8,
+  "color": "565656ff",
+  "research": {
+    "parent": "jetalloy",
+    "requirements": [
+      "jetalloy/200"
+    ]
+  }
+}

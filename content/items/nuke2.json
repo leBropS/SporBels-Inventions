@@ -1,0 +1,16 @@
+{
+  "name": "Antimatter Bomb"
+  "Description": "An antimatter bomb, capable of massive destruction. Much more powerful than the Nuclear Warhead. [red]Prohibiting both your and the enemy side's production of WMDs is reccomended and should be done at all costs.",
+  "hardness": 5,
+  "radioactivity": 2.5,
+  "explosiveness": 50,
+  "flammability": 1.5,
+  "cost": 50,
+  "color": "04d000ff",
+  "research": {
+    "parent": "nuke",
+    "requirements": [
+      "nuke/200"
+    ]
+  }
+}

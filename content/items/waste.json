@@ -1,0 +1,17 @@
+{
+  "name": "Waste",
+  "description": "Random resources and garbage mess. It is possible to recycle them and extract uranium from it thus making this resource very valuable.",
+  "hardness": 2,
+  "radioactivity": 0.1,
+  "explosiveness": 0.1,
+  "flammability": 0.1,
+  "charge": 0.1,
+  "cost": 1,
+  "color": "353535ff",
+  "research": {
+    "parent": "jetalloy",
+    "requirements": [
+      "jetalloy/200"
+    ]
+  }
+}

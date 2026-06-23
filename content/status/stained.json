@@ -1,0 +1,15 @@
+{
+  "localizedName": "Stained",
+  "speedMultiplier": 0.95,
+  "healthMultiplier": 0.95,
+  "effect": {
+    "type": "ParticleEffect",
+    "lifetime": 30,
+    "length": 2,
+    "sizeFrom": 2,
+    "sizeTo": 0,
+    "particles": 2,
+    "colorFrom": "ff0000ff",
+    "colorTo": "ff000000"
+  }
+}

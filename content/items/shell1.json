@@ -1,0 +1,15 @@
+{
+  "name": "AP Shell",
+  "description": "An Armor Piercing tank shell.",
+  "hardness": 4,
+  "explosiveness": 1.5,
+  "flammability": 0.5,
+  "cost": 3,
+  "color": "ffff00ff",
+  "research": {
+    "parent": "pyratite",
+    "requirements": [
+      "pyratite/200"
+    ]
+  }
+}

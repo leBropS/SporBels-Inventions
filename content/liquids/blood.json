@@ -1,0 +1,11 @@
+{
+  "name": "Blood",
+  "description": "This is an iron-based body-fluid in many organisms, giving it its red color. This is organic matter."
+  "color": "ff0000ff",
+  "viscosity": 0.95,
+  "temperature": 0.6,
+  "flammability": 0.3,
+  "explosiveness": 0.6,
+  "heatCapacity": 0.4,
+  "effect": "stained",
+}

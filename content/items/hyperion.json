@@ -1,0 +1,17 @@
+{
+  "name": "Hyperion",
+  "description": "A container with Meitnerium, Antimatter and Flerovium inside it.",
+  "hardness": 20,
+  "radioactivity": 1.2,
+  "explosiveness": 2.4,
+  "flammability": 1.0,
+  "charge": 0.45,
+  "cost": 20,
+  "color": "ff00ffff",
+  "research": {
+    "parent": "advancedmodule",
+    "requirements": [
+      "advancedmodule/200"
+    ]
+  }
+}

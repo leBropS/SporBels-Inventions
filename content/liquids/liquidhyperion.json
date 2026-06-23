@@ -1,0 +1,12 @@
+{
+  "name": "Liquid Hyperion",
+  "description": "Like Hyperion but a fluid. Significantly safer."
+  "color": "ff00ffff",
+  "viscosity": 0.95,
+  "temperature": 0.1,
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "heatCapacity": 1.2,
+  "coolant": true,
+  "effect": "decay",
+}

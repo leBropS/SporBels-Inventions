@@ -1,0 +1,17 @@
+{
+  "name": "Nuclear Warhead"
+  "Description": "A nuclear bomb, capable of massive destruction. [red]Prohibiting both your and the enemy side's production of nuclear warheads is reccomended and should be done at all costs.",
+  "hardness": 4,
+  "radioactivity": 2,
+  "explosiveness": 25,
+  "flammability": 1.25,
+  "cost": 25,
+  "color": "04d000ff",
+  "research": {
+    "parent": "missile",
+    "requirements": [
+      "missile/200"
+	  "enricheduranium/200"
+    ]
+  }
+}

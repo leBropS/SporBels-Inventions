@@ -1,0 +1,12 @@
+{
+  "name": "Map Ender 2",
+  "description": "Basically ends the map lol. Better than the original one!"
+  "color": "000000ff",
+  "viscosity": 10,
+  "temperature": 1.0,
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "heatCapacity": 0.25,
+  "effect": "decay",
+  "melting": true,
+}

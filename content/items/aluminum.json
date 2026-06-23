@@ -1,0 +1,15 @@
+{
+  "name": "Aluminum"
+  "description": "A very light metal used in aircraft.",
+  "hardness": 3,
+  "radioactivity": 0.0,
+  "explosiveness": 0.0,
+  "cost": 2,
+  "color": "cacacaff",
+  "research": {
+    "parent": "titanium",
+    "requirements": [
+      "titanium/200"
+    ]
+  }
+}

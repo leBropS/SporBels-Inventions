@@ -1,0 +1,15 @@
+{
+  "name": "Steel"
+  "description": "A very useful material used in tanks and buildings.",
+  "hardness": 4,
+  "radioactivity": 0.0,
+  "explosiveness": 0.0,
+  "cost": 3,
+  "color": "bbbc75ff",
+  "research": {
+    "parent": "iron",
+    "requirements": [
+      "iron/200"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Supercomputer",
+  "description": "The ultimate most advanced resource.",
+  "hardness": 5,
+  "radioactivity": 0.1,
+  "explosiveness": 0.2,
+  "charge": 0.5
+  "cost": 10,
+  "color": "565656ff",
+  "research": {
+    "parent": "advancedmodule",
+    "requirements": [
+      "advancedmodule/200"
+    ]
+  }
+}

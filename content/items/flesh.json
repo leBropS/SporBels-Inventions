@@ -1,0 +1,16 @@
+{
+  "name": "Flesh"
+  "Description": "ooo fleshy",
+  "hardness": 2,
+  "radioactivity": 0.0,
+  "explosiveness": 0.1,
+  "flammability": 0.5,
+  "cost": 1,
+  "color": "ff0000ff",
+  "research": {
+    "parent": "spore-pod",
+    "requirements": [
+      "spore-pod/200"
+    ]
+  }
+}

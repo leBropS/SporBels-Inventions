@@ -1,0 +1,16 @@
+{
+  "name": "Depleted Uranium",
+  "description": "An extremely useful piece of depleted uranium.",
+  "hardness": 4,
+  "radioactivity": 0.1,
+  "explosiveness": 0.0,
+  "flammability": 0.0,
+  "cost": 5,
+  "color": "027300ff",
+  "research": {
+    "parent": "uranium",
+    "requirements": [
+      "uranium/200"
+    ]
+  }
+}

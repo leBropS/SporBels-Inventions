@@ -1,0 +1,16 @@
+{
+  "name": "Enriched Uranium",
+  "description": "An extremely dangerous piece of military-grade uranium.",
+  "hardness": 4,
+  "radioactivity": 1.5,
+  "explosiveness": 1.2,
+  "flammability": 1.2,
+  "cost": 5,
+  "color": "05ff00ff",
+  "research": {
+    "parent": "uranium",
+    "requirements": [
+      "uranium/200"
+    ]
+  }
+}

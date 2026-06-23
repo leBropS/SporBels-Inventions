@@ -1,0 +1,16 @@
+{
+  "name": "Missile"
+  "Description": "Guided anti-air missile. Highly explosive and flammable.",
+  "hardness": 4,
+  "radioactivity": 0.0,
+  "explosiveness": 1.5,
+  "flammability": 0.75,
+  "cost": 4,
+  "color": "acacacff",
+  "research": {
+    "parent": "blast-compound",
+    "requirements": [
+      "blast-compound/200"
+    ]
+  }
+}

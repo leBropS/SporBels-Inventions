@@ -1,0 +1,11 @@
+{
+  "name": "Unobtainium",
+  "description": "Cannot be created.",
+  "hardness": 10,
+  "radioactivity": 1000,
+  "explosiveness": 1000,
+  "flammability": 1000,
+  "charge": 1000,
+  "cost": 10,
+  "color": "000000ff",
+}

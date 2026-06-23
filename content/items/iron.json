@@ -1,0 +1,15 @@
+{
+  "name": "Iron"
+  "description": "A raw ore. Needs to be refined into steel.",
+  "hardness": 3,
+  "radioactivity": 0.0,
+  "explosiveness": 0.0,
+  "cost": 2,
+  "color": "9c9c9cff",
+  "research": {
+    "parent": "titanium",
+    "requirements": [
+      "titanium/200"
+    ]
+  }
+}
