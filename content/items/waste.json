@@ -9,9 +9,9 @@
   "cost": 0.5,
   "color": "353535ff",
   "research": {
-    "parent": "jetalloy",
+    "parent": "scrap",
     "requirements": [
-      "jetalloy/200"
+      "scrap/200"
     ]
   }
 }
