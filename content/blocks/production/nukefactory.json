@@ -8,14 +8,14 @@
   "health": 600,
   "hasPower": true,
   "hasItems": true,
-  "itemCapacity": 50,
+  "itemCapacity": 100,
   "craftTime": 7200,
   "craftEffect": "smokeCloud",
   "updateEffect": "none",
   "consumes": {
     "power": 15,
     "items": [
-      "enricheduranium/50",
+      "enricheduranium/100",
       "missile/15",
       "advancedmodule/25",
 	  "thorium/50",
