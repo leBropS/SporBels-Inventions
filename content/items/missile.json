@@ -5,7 +5,7 @@
   "radioactivity": 0.0,
   "explosiveness": 1.5,
   "flammability": 0.75,
-  "cost": 4,
+  "cost": 1.35,
   "color": "acacacff",
   "research": {
     "parent": "blast-compound",
