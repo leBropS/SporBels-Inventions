@@ -13,7 +13,7 @@
   "craftEffect": "smokeCloud",
   "updateEffect": "none",
   "consumes": {
-    "power": 7,
+    "power": 5,
     "items": [
       "jetalloy/2",
       "surge-alloy/1",
