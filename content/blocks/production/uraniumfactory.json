@@ -13,9 +13,9 @@
   "craftEffect": "smokeCloud",
   "updateEffect": "none",
   "consumes": {
-    "power": 5,
+    "power": 6,
     "items": [
-      "uranium/2",
+      "uranium/3",
     ]
   },
   "requirements": [
