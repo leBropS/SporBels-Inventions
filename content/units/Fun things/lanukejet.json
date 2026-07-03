@@ -34,9 +34,9 @@
 
       "bullet": {
         "type": "basicBulletType",
-        "damage": 5000,
+        "damage": 7500,
         "speed": 20,
-	    "splashDamage": 10000,
+	    "splashDamage": 15000,
         "hitEffect": "massiveExplosion",
         "despawnEffect": "massiveExplosion",
         "splashDamageRadius": 2000,
