@@ -84,6 +84,6 @@
   ],
   "category": "units",
   "research": {
-  "parent": "ground-factory"
+  "parent": "primitivebuilder"
               }
 }
