@@ -14,7 +14,7 @@
   "craftEffect": "smokeCloud",
   "updateEffect": "none",
   "consumes": {
-    "power": 0.2,
+    "power": 0.1,
   },
   "requirements": [
     "graphite/10"
