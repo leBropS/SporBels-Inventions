@@ -46,7 +46,7 @@
         "type": "basicBulletType",
         "speed": 24,
         "damage": 38,
-		"buildingDamageMultiplier": 0.25,
+		"buildingDamageMultiplier": 0.5,
 		"pierce": true,
 		"pierceCap": 2,
         "lifetime": 20,
