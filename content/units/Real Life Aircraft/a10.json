@@ -1,6 +1,6 @@
 {
   "name": "A-10",
-  "description": "The A-10 Warthog is an american close-air-support aircraft, mounted on a GAU-8 Avenger minigun. Low speed, but very high damage.",
+  "description": "The A-10 Warthog is an american close-air-support aircraft, mounted ON a GAU-8 Avenger minigun (yes, its not the minigun mounted on the aircraft, its the aircraft itself mounted on the minigun). Low speed, but very high damage.",
   "flying": true,
   "health": 700,
   "armor": 5,
