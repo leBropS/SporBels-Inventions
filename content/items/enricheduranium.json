@@ -5,7 +5,7 @@
   "radioactivity": 1.5,
   "explosiveness": 1.2,
   "flammability": 1.2,
-  "cost": 5,
+  "cost": 2,
   "color": "05ff00ff",
   "research": {
     "parent": "uranium",
