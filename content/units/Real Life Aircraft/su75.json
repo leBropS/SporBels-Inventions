@@ -2,7 +2,7 @@
   "name": "Su-75",
   "description": "The Su-75 Checkmate is a cheaper and more lightweight alternative to the Su-57. [blue]Because there is no stealth they will simply have a lot more HP."
   "flying": true,
-  "health": 2000,
+  "health": 2100,
   "armor": 9,
   "circleTarget": true,
   "research": {
@@ -46,7 +46,7 @@
         "type": "basicBulletType",
         "speed": 24,
         "damage": 32.5,
-		"buildingDamageMultiplier": 0.25,
+		"buildingDamageMultiplier": 0.5,
 		"pierce": true,
 		"pierceCap": 2,
         "lifetime": 20,
