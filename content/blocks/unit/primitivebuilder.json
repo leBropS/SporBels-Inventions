@@ -68,6 +68,6 @@
   ],
   "category": "units",
   "research": {
-  "parent": "ground-factory"
+  "parent": "core-shard"
               }
 }
