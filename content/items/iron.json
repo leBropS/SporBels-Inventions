@@ -7,9 +7,9 @@
   "cost": 1,
   "color": "9c9c9cff",
   "research": {
-    "parent": "titanium",
+    "parent": "graphite",
     "requirements": [
-      "titanium/200"
+      "graphite/200"
     ]
   }
 }
