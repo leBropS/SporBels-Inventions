@@ -13,7 +13,7 @@
   "craftEffect": "smokeCloud",
   "updateEffect": "none",
   "consumes": {
-    "power": 4,
+    "power": 3.5,
     "items": [
       "silicon/6",
       "plastanium/6",
