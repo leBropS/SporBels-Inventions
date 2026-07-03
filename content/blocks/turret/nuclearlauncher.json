@@ -29,10 +29,10 @@
   "ammoTypes": {
     "nuke": {
       "type": "basicBulletType",
-      "damage": 5000,
+      "damage": 7500,
       "speed": 20,
 	  "ammoMultiplier": 1,
-	  "splashDamage": 10000,
+	  "splashDamage": 15000,
       "hitEffect": "massiveExplosion",
       "despawnEffect": "massiveExplosion",
       "splashDamageRadius": 2000,
@@ -52,10 +52,10 @@
     },
 	"nuke2": {
       "type": "basicBulletType",
-      "damage": 10000,
+      "damage": 15000,
       "speed": 20,
 	  "ammoMultiplier": 1,
-	  "splashDamage": 20000,
+	  "splashDamage": 30000,
       "hitEffect": "massiveExplosion",
       "despawnEffect": "massiveExplosion",
       "splashDamageRadius": 4000,
