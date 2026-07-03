@@ -14,7 +14,7 @@
   "craftEffect": "smokeCloud",
   "updateEffect": "none",
   "consumes": {
-    "power": 1,
+    "power": 0.5,
     "items": [
       "spore-pod/1",
     ]
@@ -24,5 +24,5 @@
   ],
   "category": "crafting",
   "research": "cultivator",
-  "outputLiquid": "blood/0.01"
+  "outputLiquid": "blood/0.02"
 }
