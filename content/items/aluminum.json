@@ -4,7 +4,7 @@
   "hardness": 3,
   "radioactivity": 0.0,
   "explosiveness": 0.0,
-  "cost": 2,
+  "cost": 1.15,
   "color": "cacacaff",
   "research": {
     "parent": "titanium",
