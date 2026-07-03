@@ -784,6 +784,6 @@
   ],
   "category": "units",
   "research": {
-  "parent": "air-factory"
+  "parent": "primitivebuilder"
               }
 }
