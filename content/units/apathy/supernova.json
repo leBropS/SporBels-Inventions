@@ -1,7 +1,7 @@
 {
   "type": legs,
   "name": "Supernova",
-  "description": "An unknown machine from the Apathy, specifically its Ground Cryonegic Division."
+  "description": "A machine from the Apathy, specifically its Ground Cryonegic Division. This powerful legged unit has a giant photon cannon that fires a powerful laser blast that can deal huge damage to anything. Combined with its very powerful regeneration, durability and energy field abilities, it makes it a powerful artillery-purpose mech."
   "flying": false,
   "health": 2400000,
   "armor": 820,
@@ -62,15 +62,21 @@
       "reload": 600,
       "rotate": true,
 	  "rotateSpeed": 1,
+	  "recoil": 5,
 	  "mirror": false,
 	  "shootSound": "shootOmura",
+      "shoot": {
+      "type": "ShootPattern",
+      "shots": 3,
+      "shotDelay": 30
+      },
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 240000,
+        "damage": 80000,
 		"pierce": true,
         "lifetime": 60,
         "width": 40,
-        "length": 4000,
+        "length": 8000,
 		"laserAbsorb": false,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
       }
