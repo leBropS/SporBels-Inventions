@@ -1,0 +1,110 @@
+{
+  "type": legs,
+  "name": "Supernova",
+  "description": "An unknown machine from the Apathy, specifically its Ground Cryonegic Division."
+  "flying": false,
+  "health": 2400000,
+  "armor": 820,
+  "drownTimeMultiplier": 99999999999999,
+  "hidden": true,
+
+  "speed": 2.4,
+  "outlineColor": "272930FF",
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 1,
+  "hitSize": 88,
+  "strafePenalty": 0.5,
+  "legMaxLength": 60,
+  "legExtension": -25,
+  "legCount": 8,
+  "legLength": 205,
+  "legBaseOffset": 50,
+  "legLengthScl": 1,
+  "legMoveSpace": 0.5,
+  "rippleScale": 10.0,
+  "legSplashDamage": 500,
+  "legSplashRange": 80,
+  "allowLegStep": true,
+  "hovering": true,
+  "omniMovement": true,
+  "canDrown": false,
+
+  "targetAir": true,
+  "targetGround": true,
+  "legContinuousMove": true,
+  
+  "immunities": [
+    "burning",
+    "wet",
+    "slow",
+    "sapped",
+    "shocked",
+    "freezing",
+    "corroded",
+    "tarred",
+    "muddy",
+    "spore-slowed",
+    "blasted",
+    "disarmed",
+    "electrified",
+    "melting",
+	"decay",
+	"sabotaged",
+	"stained"
+  ],
+
+  "weapons": [
+    {
+      "name": "supernova-weapon",
+      "x": 0,
+      "y": 1,
+      "reload": 1200,
+      "rotate": true,
+	  "rotateSpeed": 1,
+	  "mirror": false,
+	  "shootSound": "beamPlasma",
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "damage": 5000,
+		"damageInterval": 1.0,
+		"fadeTime": 60,
+		"pierce": true,
+        "lifetime": 600,
+        "width": 80,
+        "length": 4000,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, abfffdff, ffffffff]
+      }
+    }
+  ],
+  
+    "abilities": [
+    {
+      "type": "SuppressionFieldAbility",
+      "color": "66B1FFFF",
+      "particleColor": "66B1FFFF",
+      "range": 800,
+      "particleSize": 0,
+      "rotateSpeed": 4,
+      "orbRadius": 0.01,
+      "reload": 12
+    },
+	{
+	  "type": "regenAbility",
+	  "amount": 2000,
+	},
+	{
+	  "type": "EnergyFieldAbility",
+	  "damage": 250,
+	  "reload": 60,
+	  "range": 800,
+	  "status": "decay",
+	  "statusDuration": 600,
+	  "maxTargets": 120,
+	  "healPercent": 0,
+	  "sameTypeHealMult": 0.5,
+	  "sectors": 6,
+	},
+  ]
+}
