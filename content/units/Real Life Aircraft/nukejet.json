@@ -44,11 +44,11 @@
 
       "bullet": {
         "type": "basicBulletType",
-        "damage": 500,
+        "damage": 750,
         "status": "sabotaged",
         "statusDuration": 450,
         "speed": 20,
-	    "splashDamage": 1000,
+	    "splashDamage": 1500,
         "hitEffect": "massiveExplosion",
         "despawnEffect": "massiveExplosion",
         "splashDamageRadius": 128,
