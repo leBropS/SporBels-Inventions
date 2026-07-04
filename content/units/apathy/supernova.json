@@ -19,7 +19,7 @@
   "legExtension": -25,
   "legCount": 8,
   "legLength": 205,
-  "legBaseOffset": 50,
+  "legBaseOffset": 0,
   "legLengthScl": 1,
   "legMoveSpace": 0.5,
   "rippleScale": 10.0,
@@ -59,22 +59,20 @@
       "name": "supernova-weapon",
       "x": 0,
       "y": 1,
-      "reload": 1200,
+      "reload": 600,
       "rotate": true,
 	  "rotateSpeed": 1,
 	  "mirror": false,
-	  "shootSound": "beamPlasma",
+	  "shootSound": "shootOmura",
       "bullet": {
-        "type": "ContinuousLaserBulletType",
-        "damage": 5000,
-		"damageInterval": 1.0,
-		"fadeTime": 60,
+        "type": "LaserBulletType",
+        "damage": 100000,
 		"pierce": true,
-        "lifetime": 600,
-        "width": 80,
+        "lifetime": 60,
+        "width": 40,
         "length": 4000,
 		"laserAbsorb": false,
-		"colors": [0097dd55, 3bd9ffaa, abfffdff, ffffffff]
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
       }
     }
   ],
