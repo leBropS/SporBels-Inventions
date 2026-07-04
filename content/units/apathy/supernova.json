@@ -66,7 +66,7 @@
 	  "shootSound": "shootOmura",
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 100000,
+        "damage": 240000,
 		"pierce": true,
         "lifetime": 60,
         "width": 40,
@@ -90,7 +90,7 @@
     },
 	{
 	  "type": "regenAbility",
-	  "amount": 2000,
+	  "amount": 200,
 	},
 	{
 	  "type": "EnergyFieldAbility",
