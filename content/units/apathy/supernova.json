@@ -100,7 +100,7 @@
 	  "status": "decay",
 	  "statusDuration": 600,
 	  "maxTargets": 120,
-	  "healPercent": 0,
+	  "healPercent": 3,
 	  "sameTypeHealMult": 0.5,
 	  "sectors": 6,
 	},
