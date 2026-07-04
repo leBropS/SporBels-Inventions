@@ -6,7 +6,7 @@
   "health": 2400000,
   "armor": 820,
   "drownTimeMultiplier": 99999999999999,
-  "hidden": true,
+  "hidden": false,
 
   "speed": 2.4,
   "outlineColor": "272930FF",
