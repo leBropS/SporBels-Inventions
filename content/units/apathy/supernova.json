@@ -75,7 +75,7 @@
         "damage": 80000,
 		"pierce": true,
         "lifetime": 60,
-        "width": 40,
+        "width": 80,
         "length": 8000,
 		"laserAbsorb": false,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
