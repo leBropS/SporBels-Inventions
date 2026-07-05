@@ -1,7 +1,7 @@
 {
   "type": legs,
   "name": "Supernova",
-  "description": "A machine from the Apathy, specifically its Ground Cryonegic Division. This powerful legged unit has a giant photon cannon that fires a powerful laser blast that can deal huge damage to anything. Combined with its very powerful regeneration, durability and energy field abilities, it makes it a powerful artillery-purpose mech."
+  "description": "A machine from the Apathy, specifically its Ground Cryonegic Division. This powerful legged unit has a giant proton cannon that fires a powerful concentrated blast that can deal huge damage to anything. Combined with its very powerful regeneration, durability and energy field abilities, it makes it a powerful artillery-purpose mech."
   "flying": false,
   "health": 2400000,
   "armor": 820,
