@@ -16,6 +16,10 @@
     "omniMovement": true,
     "canDrown": false,
 	"flying": true,
+    "range": 180,
+    "targetAir": true,
+    "targetGround": true,
+
 	
 	  "abilities": [
     {
