@@ -1,6 +1,6 @@
 {
-	"name": "Horizon",
-	"description": "A machine from the Apathy, specifically its Ground Cryonegic Division. This powerful hovering unit has a proton repeater that fires concentrated blasts, and also has a orb charger that fires an orb creating a lot of lightning. Combined with its very powerful regeneration, durability and anti-regen abilities, it makes it a powerful attack tank."
+	"name": "Nebula",
+	"description": "A machine from the Apathy, specifically its Ground Cryonegic Division. This powerful low-altitude unit has a proton repeater that fires concentrated blasts, and also has a orb charger that fires an orb creating a lot of lightning. Combined with its very powerful regeneration, durability and anti-regen abilities, it makes it a powerful attack tank."
 	"health": 80000,
 	"armor": 120,
 	
