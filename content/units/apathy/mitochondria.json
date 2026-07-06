@@ -17,7 +17,7 @@
   "engineOffset": 32,
   "engineSize": 0.001,
   "engineColor": #6ecdec,
-  "hitSize": 90,
+  "hitSize": 180,
 
   "range": 180,
   "targetAir": true,
