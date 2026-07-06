@@ -13,7 +13,7 @@
   "accel": 0.1,
   "drag": 0.1,
   "rotateSpeed": 1,
-  "hitSize": 88,
+  "hitSize": 120,
   "strafePenalty": 0.5,
   "legMaxLength": 60,
   "legExtension": -25,
