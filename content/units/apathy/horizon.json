@@ -9,16 +9,13 @@
     "outlineColor": "272930FF",
     "accel": 0.09,
     "drag": 0.07,
+	"engineSize": 0.001,
+    "engineColor": #6ecdec,
     "rotateSpeed": 3.5,
     "strafePenalty": 0.5,
-    "hovering": true,
     "omniMovement": true,
     "canDrown": false,
-	"flying": false,
-	"moveSound": "loopExtract",
-    "moveSoundVolume": 0.25,
-    "moveSoundPitchMin": 0.7,
-    "moveSoundPitchMax": 1.5,
+	"flying": true,
 	
 	  "abilities": [
     {
