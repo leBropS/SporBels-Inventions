@@ -9,13 +9,13 @@
   "speed": 1.9,
   "accel": 0.05,
   "drag": 0.05,
-  "rotateSpeed": 1.5,
+  "rotateSpeed": 0.8,
   "strafePenalty": 0.5,
   "omniMovement": true,
   "circleTargetRadius": 256,
 
-  "engineOffset": 16,
-  "engineSize": 16,
+  "engineOffset": 32,
+  "engineSize": 0.001,
   "engineColor": #6ecdec,
   "hitSize": 90,
 
@@ -49,8 +49,8 @@
 		"absorbable": false,
 		"hittable": false,
         "hitShake": 250,
-        "backColor": #0000ffff,
-	    "frontColor": #00ffffff,
+        "backColor": #00ffffff,
+	    "frontColor": #0000ffff,
 		"spin": 10,
 		"lightning": 100,
 		"lightningLength": 24,
@@ -74,6 +74,8 @@
             "hitShake": 8,
 	        "homingRange": 1024,
 	        "homingPower": 0.1,
+			"backColor": #00ffffff,
+	        "frontColor": #0000ffff,
 		}
 	  }
     },
