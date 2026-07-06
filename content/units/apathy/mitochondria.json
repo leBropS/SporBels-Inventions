@@ -49,8 +49,8 @@
 		"absorbable": false,
 		"hittable": false,
         "hitShake": 250,
-        "backColor": #00ffffff,
-	    "frontColor": #0000ffff,
+        "backColor": #0000ff,
+	    "frontColor": #00ffff,
 		"spin": 10,
 		"lightning": 100,
 		"lightningLength": 24,
@@ -74,8 +74,8 @@
             "hitShake": 8,
 	        "homingRange": 1024,
 	        "homingPower": 0.1,
-			"backColor": #00ffffff,
-	        "frontColor": #0000ffff,
+			"backColor": #0000ff,
+	        "frontColor": #00ffff,
 		}
 	  }
     },
