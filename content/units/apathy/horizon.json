@@ -1,0 +1,94 @@
+{
+	"name": "Horizon"
+	"description": "A machine from the Apathy, specifically its Ground Cryonegic Division. This powerful hovering unit has a proton repeater that fires concentrated blasts, and also has a orb charger that fires an orb creating a lot of lightning. Combined with its very powerful regeneration, durability and anti-regen abilities, it makes it a powerful attack tank."
+	"health": 80000,
+	"armor": 120,
+	
+	"hitsize": 60,
+	"speed": 2.6,
+    "outlineColor": "272930FF",
+    "accel": 0.09,
+    "drag": 0.07,
+    "rotateSpeed": 3.5,
+    "strafePenalty": 0.5,
+    "hovering": true,
+    "omniMovement": true,
+    "canDrown": false,
+	"flying": false,
+	"moveSound": "loopExtract",
+    "moveSoundVolume": 0.25,
+    "moveSoundPitchMin": 0.7,
+    "moveSoundPitchMax": 1.5,
+	
+	  "abilities": [
+    {
+      "type": "SuppressionFieldAbility",
+      "color": "66B1FFFF",
+      "particleColor": "66B1FFFF",
+      "range": 120,
+      "particleSize": 0,
+      "rotateSpeed": 4,
+      "orbRadius": 6,
+      "reload": 30
+    },
+	{
+	  "type": "regenAbility",
+	  "amount": 20,
+	},
+  ]
+    "weapons": [
+    {
+      "x": 8,
+      "y": 2,
+      "reload": 30,
+	  "recoil": 5,
+	  "mirror": true,
+	  "shootSound": "shootOmura",
+      "shoot": {
+      "type": "ShootPattern",
+      "shots": 3,
+      "shotDelay": 4
+      },
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 400,
+		"pierce": true,
+        "lifetime": 60,
+        "width": 20,
+        "length": 240,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+      }
+    },
+	{
+	  "y": 2,
+      "x": 0,
+      "reload": 300,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootNavanax",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 1000,
+        "speed": 10,
+	    "splashDamage": 500,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 256,
+        "splashDamagePierce": false,
+	    "lifetime": 120,
+	    "width": 40,
+	    "height": 40,
+		"reflectable": false,
+		"absorbable": false,
+		"hittable": false,
+        "hitShake": 50,
+		"lightning": 50,
+		"lightningLength": 12,
+		"lightningLengthRand": 84,
+		"lightningDamage": 25,
+	  }
+    },
+  ],
+}
