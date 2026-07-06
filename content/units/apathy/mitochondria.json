@@ -1,0 +1,114 @@
+{
+  "name": "Mitochondria",
+  "description": "A machine from the Apathy, specifically its Atmosphere-Based-Aviation Cryonegic Division. This powerful spaceship has an 'orb chamber' that charges and then fires an orb with extremely high amount of damage that can cause massive destruction. Combined with its very powerful regeneration, durability and point defense turrets, it makes it a powerful attack spaceship."
+  "flying": true,
+  "health": 2000000,
+  "armor": 760,
+  "circleTarget": false,
+
+  "speed": 1.9,
+  "accel": 0.05,
+  "drag": 0.05,
+  "rotateSpeed": 1.5,
+  "strafePenalty": 0.5,
+  "omniMovement": true,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 0.1,
+  "engineColor": #6ecdec,
+  "hitSize": 90,
+
+  "range": 180,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+	{
+	  "y": -16,
+      "x": 0,
+      "reload": 600,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootNavanax",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 2147483647,
+        "speed": 20,
+	    "splashDamage": 15000,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 2000,
+        "splashDamagePierce": false,
+	    "lifetime": 300,
+	    "width": 80,
+	    "height": 80,
+	    "makeFire": true,
+		"reflectable": false,
+		"absorbable": false,
+		"hittable": false,
+        "hitShake": 250,
+        "backColor": #0000ffff,
+	    "frontColor": #00ffffff,
+		"spin": 10,
+		"lightning": 50,
+		"lightningLength": 12,
+		"lightningLengthRand": 84,
+		"lightningDamage": 100,
+		"bulletInterval": 30,
+		"intervalBullets": 4,
+		"intervalBullet": {
+			"type": "basicBulletType",
+            "damage": 500,
+            "speed": 20,
+	        "splashDamage": 1000,
+            "hitEffect": "massiveExplosion",
+            "despawnEffect": "massiveExplosion",
+            "splashDamageRadius": 128,
+            "splashDamagePierce": true,
+	        "lifetime": 60,
+	        "width": 24,
+	        "height": 48,
+	        "makeFire": true,
+            "hitShake": 8,
+	        "homingRange": 1024,
+	        "homingPower": 0.1,
+		}
+	  }
+    },
+	{
+    "type": "PointDefenseWeapon",
+    "x": 0,
+    "y": 0,
+    "rotate": true,
+    "reload": 30,
+	"rotateSpeed": 999,
+	"targetInterval": 1,
+	"targetSwitchInterval": 1,
+	"shootSound": "shootSegment",
+
+    "bullet": {
+      "type": "BulletType",
+      "damage": 1000,
+      "maxRange": 800,
+    }
+  }
+  ],
+  "abilities": [
+    {
+      "type": "SuppressionFieldAbility",
+      "color": "66B1FFFF",
+      "particleColor": "66B1FFFF",
+      "range": 800,
+      "particleSize": 0,
+      "rotateSpeed": 4,
+      "orbRadius": 0.01,
+      "reload": 60
+    },
+	{
+	  "type": "regenAbility",
+	  "amount": 200,
+	},
+  ]
+}
