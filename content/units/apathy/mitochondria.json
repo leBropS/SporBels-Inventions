@@ -49,8 +49,6 @@
 		"absorbable": false,
 		"hittable": false,
         "hitShake": 250,
-        "backColor": #0000ff,
-	    "frontColor": #00ffff,
 		"spin": 10,
 		"lightning": 100,
 		"lightningLength": 24,
