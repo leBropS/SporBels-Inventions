@@ -4,7 +4,7 @@
 	"health": 80000,
 	"armor": 120,
 	
-	"hitsize": 60,
+	"hitSize": 60,
 	"speed": 2.6,
     "outlineColor": "272930FF",
     "accel": 0.09,
