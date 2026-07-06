@@ -33,9 +33,9 @@
     },
 	{
 	  "type": "regenAbility",
-	  "amount": 20,
+	  "amount": 20
 	},
-  ]
+  ],
     "weapons": [
     {
       "x": 8,
