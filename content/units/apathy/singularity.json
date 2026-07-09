@@ -26,8 +26,8 @@
   "weapons": [
     {
       "name": "singularity-minigun-turret",
-      "x": 28,
-      "y": -24,
+      "x": 84,
+      "y": -72,
       "reload": 600,
       "rotate": true,
 	  "rotateSpeed": 3,
@@ -45,15 +45,15 @@
 		"pierce": true,
         "lifetime": 60,
         "width": 40,
-        "length": 1600,
+        "length": 3200,
 		"laserAbsorb": false,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
       }
     }
 	{
       "name": "singularity-minigun-turret",
-      "x": 24,
-      "y": -48,
+      "x": 96,
+      "y": -144,
       "reload": 30,
       "rotate": true,
 	  "rotateSpeed": 3,
@@ -71,15 +71,15 @@
 		"pierce": true,
         "lifetime": 60,
         "width": 10,
-        "length": 800,
+        "length": 1600,
 		"laserAbsorb": false,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
       }
     }
     {
       "name": "singularity-missile-turret",
-      "x": 36,
-      "y": 20,
+      "x": 108,
+      "y": 60,
       "reload": 30,
       "rotate": true,
 	  "rotateSpeed": 2,
@@ -108,8 +108,8 @@
     },
 	{
       "name": "singularity-missile-turret",
-      "x": 24,
-      "y": 48,
+      "x": 96,
+      "y": 144,
       "reload": 30,
       "rotate": true,
 	  "rotateSpeed": 2,
@@ -137,7 +137,7 @@
       }
     },
 	{
-	  "y": -32,
+	  "y": -96,
       "x": 0,
       "reload": 60,
       "recoil": 0.0,
@@ -225,11 +225,11 @@
 	{
 	  "type": "EnergyFieldAbility",
 	  "damage": 500,
-	  "reload": 30,
+	  "reload": 300,
 	  "range": 1600,
 	  "status": "decay",
 	  "statusDuration": 1800,
-	  "maxTargets": 250,
+	  "maxTargets": 1000,
 	  "healPercent": 3,
 	  "sameTypeHealMult": 0.5,
 	  "sectors": 8,
