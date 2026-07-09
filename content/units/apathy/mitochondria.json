@@ -34,7 +34,7 @@
 
       "bullet": {
         "type": "basicBulletType",
-        "damage": 2147483647,
+        "damage": 1000000,
         "speed": 10,
 	    "splashDamage": 15000,
         "hitEffect": "massiveExplosion",
