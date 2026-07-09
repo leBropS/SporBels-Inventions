@@ -1,0 +1,245 @@
+{
+  "name": "Singularity",
+  "description": "A machine from the Apathy, specifically its MSSPS(Medium Sized Space-Purpose-Ship)-Based Cryonegic Space Force Division. An extremely powerful invasion ship with many weapons of mass destruction."
+  "flying": true,
+  "health": 10000000,
+  "armor": 5000,
+  "circleTarget": false,
+
+  "speed": 1.0,
+  "accel": 0.05,
+  "drag": 0.05,
+  "rotateSpeed": 1.0,
+  "strafePenalty": 0.5,
+  "omniMovement": true,
+  "circleTargetRadius": 256,
+
+  "engineOffset": 16,
+  "engineSize": 0.1,
+  "engineColor": #6ecdec,
+  "hitSize": 375,
+
+  "range": 180,
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "name": "singularity-minigun-turret",
+      "x": 28,
+      "y": -24,
+      "reload": 600,
+      "rotate": true,
+	  "rotateSpeed": 3,
+	  "recoil": 2,
+	  "mirror": true,
+	  "shootSound": "shootOmura",
+      "shoot": {
+      "type": "ShootPattern",
+      "shots": 4,
+      "shotDelay": 30
+      },
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 2000,
+		"pierce": true,
+        "lifetime": 60,
+        "width": 40,
+        "length": 1600,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+      }
+    }
+	{
+      "name": "singularity-minigun-turret",
+      "x": 24,
+      "y": -48,
+      "reload": 30,
+      "rotate": true,
+	  "rotateSpeed": 3,
+	  "recoil": 2,
+	  "mirror": true,
+	  "shootSound": "shootOmura",
+      "shoot": {
+      "type": "ShootPattern",
+      "shots": 3,
+      "shotDelay": 4
+      },
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 200,
+		"pierce": true,
+        "lifetime": 60,
+        "width": 10,
+        "length": 800,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+      }
+    }
+    {
+      "name": "singularity-missile-turret",
+      "x": 36,
+      "y": 20,
+      "reload": 30,
+      "rotate": true,
+	  "rotateSpeed": 2,
+	  "recoil": 1
+	  "mirror": true
+	  "shootSound": "shootMissile",
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 30,
+        "damage": 1000,
+		"armorMultiplier": 0,
+        "lifetime": 120,
+        "width": 12,
+        "height": 36,
+		"collidesAir": true,
+		"collidesGround": true,
+	    "splashDamage": 500,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 64,
+        "splashDamagePierce": true,
+	    "makeFire": true,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    },
+	{
+      "name": "singularity-missile-turret",
+      "x": 24,
+      "y": 48,
+      "reload": 30,
+      "rotate": true,
+	  "rotateSpeed": 2,
+	  "recoil": 1
+	  "mirror": true
+	  "shootSound": "shootMissile",
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 30,
+        "damage": 1000,
+		"armorMultiplier": 0,
+        "lifetime": 120,
+        "width": 12,
+        "height": 36,
+		"collidesAir": true,
+		"collidesGround": true,
+	    "splashDamage": 500,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 64,
+        "splashDamagePierce": true,
+	    "makeFire": true,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    },
+	{
+	  "y": -32,
+      "x": 0,
+      "reload": 60,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootNavanax",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 1000000,
+        "speed": 10,
+	    "splashDamage": 15000,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 2000,
+        "splashDamagePierce": false,
+	    "lifetime": 600,
+	    "width": 80,
+	    "height": 80,
+	    "makeFire": true,
+		"reflectable": false,
+		"absorbable": false,
+		"hittable": false,
+        "hitShake": 250,
+		"spin": 10,
+		"lightning": 100,
+		"lightningLength": 24,
+		"lightningLengthRand": 216,
+		"lightningDamage": 100,
+		"bulletInterval": 5,
+		"intervalBullets": 4,
+		"intervalBullet": {
+			"type": "basicBulletType",
+            "damage": 50,
+            "speed": 10,
+	        "splashDamage": 100,
+            "hitEffect": "massiveExplosion",
+            "despawnEffect": "massiveExplosion",
+            "splashDamageRadius": 64,
+            "splashDamagePierce": true,
+	        "lifetime": 60,
+	        "width": 24,
+	        "height": 48,
+	        "makeFire": true,
+            "hitShake": 8,
+	        "homingRange": 1024,
+	        "homingPower": 0.1,
+			"backColor": #0000ff,
+	        "frontColor": #00ffff,
+		}
+	  }
+    },
+	{
+    "type": "PointDefenseWeapon",
+    "x": 0,
+    "y": 0,
+    "rotate": true,
+    "reload": 1,
+	"rotateSpeed": 999,
+	"targetInterval": 1,
+	"targetSwitchInterval": 1,
+	"shootSound": "shootSegment",
+
+    "bullet": {
+      "type": "BulletType",
+      "damage": 10000,
+      "maxRange": 1600,
+    }
+  }
+  ],
+  "abilities": [
+    {
+      "type": "SuppressionFieldAbility",
+      "color": "66B1FFFF",
+      "particleColor": "66B1FFFF",
+      "range": 1600,
+      "particleSize": 0,
+      "rotateSpeed": 4,
+      "orbRadius": 0.01,
+      "reload": 60
+    },
+	{
+	  "type": "regenAbility",
+	  "amount": 500,
+	},
+	{
+	  "type": "EnergyFieldAbility",
+	  "damage": 500,
+	  "reload": 30,
+	  "range": 1600,
+	  "status": "decay",
+	  "statusDuration": 1800,
+	  "maxTargets": 250,
+	  "healPercent": 3,
+	  "sameTypeHealMult": 0.5,
+	  "sectors": 8,
+	},
+	{
+      "type": "unitSpawnAbility",
+      "unit": "nebula",
+	  "y": -80
+	  "spawnTime": 300,
+	  "parentizeEffects": true,
+    },
+  ]
+}
