@@ -1,7 +1,7 @@
 {
   "type": mech,
-  "name": "Hyperion Bug",
-  "description": "A creature made out of Hyperion?"
+  "name": "Hyperion Bug (Biter)",
+  "description": "A creature made out of hyperion. Fast and will eat your walls."
   "immunities": [decay],
   "flying": false,
   "health": 1000,
@@ -55,6 +55,9 @@
     "unit": "hyperionbug",
 	"spawnTime": 7200,
 	"parentizeEffects": true,
-    },
+  },
+  {
+	"type": "RegenAbility",
+	"percentAmount": 0.1,
 ]
 }
