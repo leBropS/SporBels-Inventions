@@ -1,0 +1,78 @@
+{
+  "type": mech,
+  "name": "Hyperion Bug (Spitter)",
+  "description": "A creature made out of hyperion. Slower and more fragile than its biter brother but can fire projectiles."
+  "immunities": [decay],
+  "flying": false,
+  "health": 720,
+  "armor": 2,
+  "omniMovement": true,
+  "hidden": false,
+  "lowAltitude": true,
+  
+  "speed": 1.5,
+  "accel": 0.5,
+  "drag": 0.5,
+  "rotateSpeed": 20,
+  "hitSize": 30,
+  "collidesTiles": true,
+  "canDrown": true,
+
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 2.5,
+      "x": 0,
+      "reload": 90,
+      "recoil": 0.5,
+      "shake": 0.1,
+      "shootSound": "shootSpectre",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 4,
+        "damage": 75,
+		"splashDamage": 25,
+		"splashDamageRadius": 80,
+        "lifetime": 30,
+        "width": 8,
+        "height": 24,
+		"pierceBuilding": true,
+		"pierce": true,
+		"pierceCap": 2,
+		"inaccuracy": 5,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+		"fragBullets": 5,
+		"fragBullet": {
+          "type": "basicBulletType",
+          "speed": 1,
+          "lifetime": 300,
+          "width": 4,
+          "height": 12,
+		  "pierceBuilding": true,
+		  "pierce": true,
+        }
+      }
+    }
+  ]
+  "abilities": [
+  {
+    "type": liquidExplodeAbility,
+    "liquid": liquidhyperion,
+    "amount": 80,
+    "radius": 16
+  },
+  {
+    "type": "unitSpawnAbility",
+    "unit": "hyperionspitter",
+	"spawnTime": 7200,
+	"parentizeEffects": true,
+  },
+  {
+	"type": "RegenAbility",
+	"percentAmount": 0.1,
+]
+}
