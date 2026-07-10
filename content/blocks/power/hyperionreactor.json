@@ -1,0 +1,35 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Hyperion Reactor",
+  "description": "Consumes both Hyperion containers and its liquid form to create absolutely huge amounts of power.",
+  "size": 5,
+  "health": 2000,
+  "ambientSound": "loopThoriumReactor",
+  "ambientSoundVolume": 1.0,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 32,
+  "itemDuration": 300,
+  "explosionRadius": 64,
+  "explosionDamage": 1000,
+  "explodeEffect": "massiveExplosion",
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "items": [
+      "hyperion/1",
+    ]
+	"liquids": [
+	  "liquidhyperion/1",
+    ]
+  },
+  "requirements": [
+    "advancedmodule/120",
+	"hyperion/40"
+	"supercomputer/8",
+  ],
+  "category": "power",
+  "research": "largenuclearreactor",
+  "outputsPower": true,
+  "powerProduction": 1536,
+}
