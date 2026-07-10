@@ -12,6 +12,12 @@
       ],
       "time": 1800
     }
+    {
+      "unit": "hyperionspitter",
+      "requirements": [
+      ],
+      "time": 1800
+    }
   ],
   "requirements": [
     {
