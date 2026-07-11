@@ -14,7 +14,6 @@
       "shell1/300",
     ]
   },
-  "researchCostMultiplier": 100,
   "speed": 2.1,
   "accel": 0.1,
   "drag": 0.1,
