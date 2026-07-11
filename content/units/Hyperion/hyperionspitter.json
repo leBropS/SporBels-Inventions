@@ -74,5 +74,6 @@
   {
 	"type": "RegenAbility",
 	"percentAmount": 0.1,
+  }
 ]
 }
