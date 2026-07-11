@@ -27,6 +27,24 @@
       ],
       "time": 3000
     },
+	{
+      "unit": "t34",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 10
+        },
+        {
+          "item": "steel",
+          "amount": 40
+        },
+        {
+          "item": "shell1",
+          "amount": 30
+        },
+      ],
+      "time": 2400
+    },
     {
       "unit": "lt35",
       "requirements": [
