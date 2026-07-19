@@ -1,0 +1,119 @@
+{
+	"name": "Ramiel"
+	"description": "A powerful vessel from the Apathy."
+	"health": 1000000,
+	"armor": 4000,
+	
+	"hitSize": 128,
+	"speed": 1,
+    "outlineColor": "272930FF",
+    "accel": 0.1,
+    "drag": 0.1,
+    "rotateSpeed": 1,
+    "strafePenalty": 0.0,
+    "hovering": true,
+    "omniMovement": true,
+	"flying": true,
+	"moveSound": "loopExtract",
+    "moveSoundVolume": 1.0,
+    "moveSoundPitchMin": 0.7,
+    "moveSoundPitchMax": 1.5,
+	  "immunities": [
+    "burning",
+    "wet",
+    "slow",
+    "sapped",
+    "shocked",
+    "freezing",
+    "corroded",
+    "tarred",
+    "muddy",
+    "spore-slowed",
+    "blasted",
+    "disarmed",
+    "electrified",
+    "melting",
+	"decay",
+	"sabotaged",
+	"stained"
+  ],
+	
+	  "abilities": [
+	{
+	  "type": "regenAbility",
+	  "amount": 20,
+	},
+	{
+      "type": "ForceFieldAbility",
+      "radius": 256,
+      "regen": 400,
+      "max": 160000,
+      "cooldown": 300,
+	  "sides": 6,
+    }
+  ]
+    "weapons": [
+    {
+	  "name": "weapon-nosprite",
+      "x": 0,
+      "y": 0,
+      "reload": 30,
+      "rotate": true,
+	  "rotateSpeed": 240,
+	  "recoil": 5,
+	  "mirror": false,
+	  "shootSound": "shootOmura",
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 120000,
+		"pierce": false,
+        "lifetime": 60,
+        "width": 80,
+        "length": 8000,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+      }
+    },
+    {
+	  "name": "weapon-nosprite",
+	  "y": 0,
+      "x": 0,
+      "reload": 15,
+	  "controllable": false,
+      "recoil": 0.0,
+      "shake": 0,
+	  "shoot": {
+      "type": "ShootPattern",
+      "shots": 2,
+      "shotDelay": 3
+      },
+      "shootSound": "shootMissile",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 500,
+        "status": "sabotaged",
+        "statusDuration": 300,
+        "speed": 40,
+		"lifeScaleRandMin": 0.75,
+		"lifeScaleRandMax": 1.25,
+		"velocityScaleRandMin": 0.75,
+		"velocityScaleRandMax": 1.25,
+	    "splashDamage": 500,
+		"buildingDamageMultiplier": 0.2,
+		"targetBlocks": false,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion",
+        "splashDamageRadius": 128,
+        "splashDamagePierce": true,
+	    "lifetime": 60,
+	    "width": 8,
+	    "height": 24,
+	    "makeFire": false,
+        "hitShake": 16,
+	    "homingRange": 256,
+	    "homingPower": 0.025,
+		"inaccuracy": 10,
+	  }
+    },
+  ],
+}
