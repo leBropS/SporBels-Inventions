@@ -1,0 +1,13 @@
+{
+    "type": "Conveyor",
+    "name": "Rail Conveyor",
+	"description": "Transports items forward. Much faster than the titanium conveyor."
+    "requirements": [
+        "advancedmodule/1",
+    ]
+    "health": 100,
+    "speed": 0.25,
+    "size": 1,
+    "displayedSpeed": 25,
+	"research": "titanium-conveyor",
+}
