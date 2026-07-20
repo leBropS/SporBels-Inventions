@@ -1,0 +1,15 @@
+{
+  "name": "RP Shell",
+  "description": "An Railgun Propelled tank shell.",
+  "hardness": 16,
+  "explosiveness": 2.5,
+  "flammability": 1,
+  "cost": 8,
+  "color": "0000ffff",
+  "research": {
+    "parent": "shell3",
+    "requirements": [
+      "shell3/200"
+    ]
+  }
+}

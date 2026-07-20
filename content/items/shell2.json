@@ -1,0 +1,15 @@
+{
+  "name": "APHE Shell",
+  "description": "An Armor Piercing High Explosive tank shell.",
+  "hardness": 8,
+  "explosiveness": 2,
+  "flammability": 0.75,
+  "cost": 4,
+  "color": "ff0000ff",
+  "research": {
+    "parent": "shell1",
+    "requirements": [
+      "shell1/200"
+    ]
+  }
+}
