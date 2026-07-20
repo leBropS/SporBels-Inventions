@@ -1,6 +1,6 @@
 {
 	"name": "Ramiel"
-	"description": "A powerful vessel from the Apathy."
+	"description": "A powerful vessel from the Apathy. Slow, but extremely durable, has anti-unit missiles, a large energy shield and an extremely powerful positron beam caster."
 	"health": 1000000,
 	"armor": 4000,
 	
@@ -68,7 +68,7 @@
         "damage": 120000,
 		"pierce": false,
         "lifetime": 60,
-        "width": 80,
+        "width": 40,
         "length": 8000,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
       }
