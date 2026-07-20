@@ -23,7 +23,7 @@
   "requirements": [
     "hyperion/20",
     "supercomputer/4",
-	"advanced-module/60",
+	"advancedmodule/60",
   ],
   "category": "crafting",
   "research": "shell3factory",
