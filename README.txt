@@ -12,10 +12,11 @@ Implemented things for planned 1.1:
 -New unit from Apathy, which is basically like Ramiel from Evangelion (but alongside with its existing abilities and attacks, it has also extra cool auto-firing missiles and a lil bit of regen)
 -New 'Rail Conveyor', which is the latest tier of the conveyors.
 -Fixed T-34 research cost.
-
-Not implemented, but planned things for 1.1:
-
--A new tank
 -3 new shell types (for future planned units) and factories for them.
+
+Not implemented, but planned high-priority things for the mod:
+
+-New tanks
 -Advanced Force Field (4x4 late-game block with a very low down-time to counter nukes)
 -2 New turrets and a resource for the Apathy, to counter their own units.
+-A new 2x2 turret for Erekir
