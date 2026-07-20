@@ -9,7 +9,7 @@ You may also contribute to this mod by adding whatever you want, as long as the 
 
 Implemented things for planned 1.1:
 
--New unit from Apathy, which is basically 'Ramiel' from Evangelion (but alongside with its existing abilities and attacks, it has also extra cool auto-firing missiles and a lil bit of regen)
+-New unit from Apathy, which is basically like Ramiel from Evangelion (but alongside with its existing abilities and attacks, it has also extra cool auto-firing missiles and a lil bit of regen)
 -New 'Rail Conveyor', which is the latest tier of the conveyors.
 -Fixed T-34 research cost.
 
