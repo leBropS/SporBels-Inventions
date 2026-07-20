@@ -15,7 +15,7 @@
   "consumes": {
     "power": 4,
     "items": [
-      "advanced-module/1",
+      "advancedmodule/1",
       "depleted-uranium/1",
       "shell2/1",
     ]
@@ -23,7 +23,7 @@
   "requirements": [
     "thorium/60",
     "silicon/80",
-	"advanced-module/20",
+	"advancedmodule/20",
   ],
   "category": "crafting",
   "research": "shell2factory",
