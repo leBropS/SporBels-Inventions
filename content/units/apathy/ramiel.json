@@ -6,6 +6,7 @@
 	
 	"hitSize": 128,
 	"faceTarget": false,
+	"payloadCapacity": 128,
 	"healFlash": false,
 	"shieldColor": "ff6500",
 	"speed": 1,
