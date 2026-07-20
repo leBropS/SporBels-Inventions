@@ -1,0 +1,31 @@
+{
+  "type": "GenericCrafter",
+  "name": "APFSDS Shell Assembler",
+  "description": "Assembles shells for tanks.",
+  "ambientSound": "loopMachine",
+  "ambientSoundVolume": 0.15,
+  "size": 3,
+  "health": 420,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "craftTime": 300,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 4,
+    "items": [
+      "advanced-module/1",
+      "depleted-uranium/1",
+      "shell2/1",
+    ]
+  },
+  "requirements": [
+    "thorium/60",
+    "silicon/80",
+	"advanced-module/20",
+  ],
+  "category": "crafting",
+  "research": "shell2factory",
+  "outputItem": "shell3/3"
+}

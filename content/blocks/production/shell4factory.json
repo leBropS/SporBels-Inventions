@@ -1,0 +1,31 @@
+{
+  "type": "GenericCrafter",
+  "name": "RP Shell Assembler",
+  "description": "Assembles shells for tanks.",
+  "ambientSound": "loopMachine",
+  "ambientSoundVolume": 0.15,
+  "size": 3,
+  "health": 420,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "craftTime": 300,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 6,
+    "items": [
+      "supercomputer/1",
+      "enricheduranium/2",
+      "shell3/1",
+    ]
+  },
+  "requirements": [
+    "hyperion/20",
+    "supercomputer/4",
+	"advanced-module/60",
+  ],
+  "category": "crafting",
+  "research": "shell3factory",
+  "outputItem": "shell4/4"
+}

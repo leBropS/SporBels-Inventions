@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "name": "APHE Shell Assembler",
+  "description": "Assembles shells for tanks.",
+  "ambientSound": "loopMachine",
+  "ambientSoundVolume": 0.15,
+  "size": 3,
+  "health": 420,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "craftTime": 300,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 3,
+    "items": [
+      "lead/4",
+      "blast-compound/2",
+      "shell1/1",
+    ]
+  },
+  "requirements": [
+    "titanium/80",
+    "steel/60",
+    "silicon/60",
+	"metaglass/20",
+  ],
+  "category": "crafting",
+  "research": "shell1factory",
+  "outputItem": "shell2/2"
+}
