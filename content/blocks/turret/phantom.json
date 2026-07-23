@@ -44,7 +44,7 @@
 	 "shell2": {
       "type": "basicBulletType",
       "damage": 180,
-	  "armorMultiplier": -2,
+	  "armorMultiplier": -1.5,
 	  "buildingDamageMultiplier": 0.2,
 	  "splashDamage": 20,
       "hitEffect": "massiveExplosion",
@@ -62,7 +62,7 @@
 	 "shell3": {
       "type": "basicBulletType",
       "damage": 360,
-	  "armorMultiplier": -4,
+	  "armorMultiplier": -2,
 	  "buildingDamageMultiplier": 0.2,
 	  "splashDamage": 40,
       "hitEffect": "massiveExplosion",
@@ -80,7 +80,7 @@
 	 "shell4": {
       "type": "basicBulletType",
       "damage": 720,
-	  "armorMultiplier": -8,
+	  "armorMultiplier": -2.5,
 	  "buildingDamageMultiplier": 0.2,
 	  "splashDamage": 80,
       "hitEffect": "massiveExplosion",
