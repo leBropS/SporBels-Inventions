@@ -15,7 +15,7 @@
 "range": 150
 "reload": 25
 
-"coolantMultiplier": 2,
+"coolantMultiplier": 20,
   "consumes": {
     "coolant": {
       "amount": 0.2
@@ -46,7 +46,7 @@
     "pierceCap": 2,
 	"buildingDamageMultiplier": 0.5,
 
-    "width": 9,
+    "width": 7,
     "height": 24,
 
     "frontColor": "b8ecae",
@@ -54,7 +54,7 @@
 
     "trailColor": "00ff00",
     "trailLength": 4,
-    "trailWidth": 1,
+    "trailWidth": 1.5,
 
     "lightColor": "00ff00",
     "lightOpacity": 0.75,
@@ -68,8 +68,6 @@
     "speed": 8,
     "lifetime": 30,
     "damage": 31.75,
-	"splashDamage": 2.5,
-	"splashDamageRadius": 12,
 	"rangeChange": 75,
 	"armorMultiplier": 0.81
 
@@ -77,7 +75,7 @@
     "pierceCap": 3,
 	"buildingDamageMultiplier": 0.5,
 
-    "width": 9,
+    "width": 7,
     "height": 24,
 
     "frontColor": "dedede",
@@ -85,7 +83,7 @@
 
     "trailColor": "ffffff",
     "trailLength": 4,
-    "trailWidth": 1,
+    "trailWidth": 1.5,
 
     "lightColor": "ffffff",
     "lightOpacity": 0.75,
