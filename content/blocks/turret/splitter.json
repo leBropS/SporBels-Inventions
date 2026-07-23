@@ -1,15 +1,15 @@
 "type": "ItemTurret",
 "name": "Splitter",
-"description": "A smaller version of the Breach turret, though with some differences.",
+"description": "A smaller, more compressed and improved version of the Breach turret.",
 "category": "turret",
 
 "size": 2
 "health": 720
 
 "requirements": [
-  "beryllium/65"
-  "silicon/75"
-  "tungsten/75"
+  "graphite/80"
+  "silicon/100"
+  "beryllium/100"
 ]
 
 "range": 150
