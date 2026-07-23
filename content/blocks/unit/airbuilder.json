@@ -702,7 +702,7 @@
         },
 		{
           "item": "supercomputer",
-          "amount": 4
+          "amount": 2
         },
 		{
           "item": "hyperion",
@@ -728,7 +728,7 @@
         },
 		{
           "item": "supercomputer",
-          "amount": 6
+          "amount": 3
         },
 		{
           "item": "hyperion",
@@ -754,7 +754,7 @@
         },
 		{
           "item": "supercomputer",
-          "amount": 12
+          "amount": 4
         },
 		{
           "item": "hyperion",
