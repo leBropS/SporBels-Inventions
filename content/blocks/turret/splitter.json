@@ -15,6 +15,14 @@
 "range": 150
 "reload": 25
 
+"coolantMultiplier": 2,
+  "consumes": {
+    "coolant": {
+      "amount": 0.2
+    }
+  },
+"shootSound": "shootSpectre",
+
 "rotateSpeed": 11
 "shootY": 6
 "recoil": 2
@@ -25,9 +33,6 @@
 
 "targetAir": true
 "targetGround": true
-
-"coolantMultiplier": 2
-"consumeCoolant": true
 
 "ammoTypes": {
   "beryllium": {
@@ -42,14 +47,14 @@
 	"buildingDamageMultiplier": 0.5,
 
     "width": 9,
-    "height": 12,
+    "height": 24,
 
     "frontColor": "b8ecae",
     "backColor": "3b954c",
 
     "trailColor": "00ff00",
-    "trailLength": 12,
-    "trailWidth": 8,
+    "trailLength": 4,
+    "trailWidth": 1,
 
     "lightColor": "00ff00",
     "lightOpacity": 0.75,
@@ -73,14 +78,14 @@
 	"buildingDamageMultiplier": 0.5,
 
     "width": 9,
-    "height": 12,
+    "height": 24,
 
     "frontColor": "dedede",
     "backColor": "aeaeae",
 
     "trailColor": "ffffff",
-    "trailLength": 12,
-    "trailWidth": 8,
+    "trailLength": 4,
+    "trailWidth": 1,
 
     "lightColor": "ffffff",
     "lightOpacity": 0.75,
