@@ -1,4 +1,5 @@
 I am requesting YOU for help.
+
 I plan to add a new campaign called Thrahe.
 I need your help to add the planet and levels to it. I would love to see code in .hjson that you would send me. And if you cannot, atleast creating maps with the mod is good enough.
 Thrahe should be similar to Earth in terrain and appearance. Otherwise its like Serpulo.
@@ -9,6 +10,21 @@ You may also contribute to this mod by adding whatever you want, as long as the 
 
 Planned high-priority things for the mod:
 
--New tanks
+-A lot of new tanks
 -Advanced Force Field (4x4 late-game block with a very low down-time to counter nukes)
 -2 New turrets and a resource for the Apathy, to counter their own units.
+
+Planned medium-priority things for the mod:
+
+-Helicopters
+-Buff rail conveyor
+-Warden turret (better phantom)
+-New Apathy units
+-Adding the campaign
+-New maps
+
+Planned low-priority things for the mod:
+
+-Navy (and boats)
+-More fun things
+-Add a lot more new erekir stuff
