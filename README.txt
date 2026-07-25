@@ -13,18 +13,18 @@ Planned high-priority things for the mod:
 -A lot of new tanks
 -Advanced Force Field (4x4 late-game block with a very low down-time to counter nukes)
 -2 New turrets and a resource for the Apathy, to counter their own units.
+-More infantry variants
 
 Planned medium-priority things for the mod:
 
 -Helicopters
 -Buff rail conveyor
 -Warden turret (better phantom)
--New Apathy units
+-New Apathy and fun sandbox units
 -Adding the campaign
 -New maps
 
 Planned low-priority things for the mod:
 
 -Navy (and boats)
--More fun things
 -Add a lot more new erekir stuff
