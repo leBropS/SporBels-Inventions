@@ -116,7 +116,7 @@
         "hitEffect": "massiveExplosion",
         "despawnEffect": "massiveExplosion",
         "splashDamageRadius": 128,
-        "splashDamagePierce": true,
+        "splashDamagePierce": false,
 	    "lifetime": 60,
 	    "width": 8,
 	    "height": 24,
