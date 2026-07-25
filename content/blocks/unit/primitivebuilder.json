@@ -22,7 +22,7 @@
         }
       ],
       "time": 450
-    }
+    },
 	{
       "unit": "infantry2",
       "requirements": [
@@ -36,7 +36,7 @@
         }
       ],
       "time": 575
-    }
+    },
 	{
       "unit": "infantry3",
       "requirements": [
@@ -50,6 +50,20 @@
         }
       ],
       "time": 600
+    },
+	{
+      "unit": "infantry4",
+      "requirements": [
+        {
+          "item": "flesh",
+          "amount": 2
+        },
+		{
+          "item": "advancedmodule",
+          "amount": 1
+        }
+      ],
+      "time": 900
     }
   ],
   "requirements": [
