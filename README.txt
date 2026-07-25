@@ -18,7 +18,6 @@ Planned high-priority things for the mod:
 Planned medium-priority things for the mod:
 
 -Helicopters
--Buff rail conveyor
 -Warden turret (better phantom)
 -New Apathy and fun sandbox units
 -Adding the campaign
