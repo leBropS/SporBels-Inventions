@@ -6,8 +6,8 @@
         "advancedmodule/1",
     ]
     "health": 100,
-    "speed": 0.25,
+    "speed": 0.3,
     "size": 1,
-    "displayedSpeed": 25,
+    "displayedSpeed": 30,
 	"research": "titanium-conveyor",
 }
