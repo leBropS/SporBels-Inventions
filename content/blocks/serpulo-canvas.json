@@ -1,0 +1,49 @@
+"type": "CanvasBlock"
+
+"name": "Sonvas"
+"description": "Its like the erekir canvas but for Serpulo. It is intended for importing images instead of drawing them. [red]WARNING!! DO NOT SPAM THIS BLOCK OR IT WILL LAG!! You may need more RAM for this block than an AI datacenter has."
+
+"size": 3
+"health": 250
+"category": "logic"
+
+"requirements": [
+  "iron/500"
+  "steel/200"
+  "plastanium/25"
+  "copper/3000"
+  "lead/3000"
+]
+
+"canvasSize": 512
+"padding": 0
+
+"palette": [
+  "ff0000"
+  "ff8e00"
+  "ffff00"
+  "00ff00"
+  "00ffff"
+  "0000ff"
+  "a200ff"
+  "ff00ff"
+  "ffffff"
+  "7f7f7f"
+  "000000"
+  "7f0000"
+  "7f5f00"
+  "7c7f00"
+  "007f04"
+  "007f7d"
+  "00077f"
+  "5d007f"
+  "7f0064"
+  "ff7575"
+  "ffb975"
+  "fffa75"
+  "86ff75"
+  "75ffee"
+  "7576ff"
+  "d375ff"
+  "ff75e7"
+]
