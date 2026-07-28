@@ -6,6 +6,7 @@
 "size": 3
 "health": 250
 "category": "logic"
+"research": "steelfactory"
 
 "requirements": [
   "iron/500"
