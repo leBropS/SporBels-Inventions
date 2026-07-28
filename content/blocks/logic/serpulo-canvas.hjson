@@ -20,10 +20,10 @@
   "padding": 0,
 
    "palette": [
-    "#ff0000", "#ff8e00", "#ffff00", "#00ff00", "#00ffff", "#0000ff",
-    "#a200ff", "#ff00ff", "#ffffff", "#7f7f7f", "#000000", "#7f0000",
-    "#7f5f00", "#7c7f00", "#007f04", "#007f7d", "#00077f", "#5d007f",
-    "#7f0064", "#ff7575", "#ffb975", "#fffa75", "#86ff75", "#75ffee",
-    "#7576ff", "#d375ff"
+  0xffff0000, 0xffff8e00, 0xffffff00, 0xff00ff00, 0xff00ffff, 0xff0000ff,
+  0xffa200ff, 0xffff00ff, 0xffffffff, 0xff7f7f7f, 0xff000000, 0xff7f0000,
+  0xff7f5f00, 0xff7c7f00, 0xff007f04, 0xff007f7d, 0xff00077f, 0xff5d007f,
+  0xff7f0064, 0xffff7575, 0xffffb975, 0xfffffa75, 0xff86ff75, 0xff75ffee,
+  0xff7576ff, 0xffd375ff
   ]
 }
