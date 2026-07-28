@@ -8,6 +8,9 @@ Once you have ideas and maps done, make sure to contact me in any way.
 Also when you are making maps, you should know this mod is unfinished. I plan to add tanks, helicopters and more buildings.
 You may also contribute to this mod by adding whatever you want, as long as the creator approves it. Thaaanks :D
 
+Things added in next update (1.1.3):
+-New canvas block for serpulo
+
 Planned high-priority things for the mod:
 
 -A lot of new tanks
