@@ -19,9 +19,10 @@ Planned medium-priority things for the mod:
 
 -Helicopters
 -Warden turret (better phantom)
--New Apathy and fun sandbox units
+-Apathy content
+-Fun content and sandbox stuff
 -Adding the campaign
--New maps
+-More maps
 
 Planned low-priority things for the mod:
 
