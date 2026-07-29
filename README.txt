@@ -11,6 +11,7 @@ You may also contribute to this mod by adding whatever you want, as long as the 
 Things added in next update (1.1.5):
 sonvas improvement
 new hyperion bug
+splitter turret new ammo type
 
 Planned high-priority things for the mod:
 
