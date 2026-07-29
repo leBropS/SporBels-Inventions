@@ -8,10 +8,12 @@ Once you have ideas and maps done, make sure to contact me in any way.
 Also when you are making maps, you should know this mod is unfinished. I plan to add tanks, helicopters and more buildings.
 You may also contribute to this mod by adding whatever you want, as long as the creator approves it. Thaaanks :D
 
+MOD PLANS AND DEVELOPMENT:
+
 Things added in next update (1.1.5):
-sonvas improvement
-new hyperion bug
-splitter turret new ammo type
+Sonvas block improvement (Some new shades of skin color and blue)
+2 new hyperion bugs (The flying guy and the big chongus guy)
+Splitter turret new ammo type (Carbide ammo that deals a lot more damage and has a lot more range than the standard ones)
 
 Planned high-priority things for the mod:
 
