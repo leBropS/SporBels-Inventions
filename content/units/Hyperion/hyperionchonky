@@ -1,0 +1,82 @@
+{
+  "type": mech,
+  "name": "Hyperion Bug (Chonky)",
+  "description": "A creature made out of hyperion. It is like the Biter but way larger."
+  "immunities": [decay],
+  "flying": false,
+  "health": 5000,
+  "armor": 10,
+  "omniMovement": true,
+  "hidden": false,
+  "lowAltitude": true,
+  
+  "speed": 1,
+  "accel": 0.5,
+  "drag": 0.5,
+  "rotateSpeed": 20,
+  "hitSize": 60,
+  "collidesTiles": true,
+  "canDrown": true,
+
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "y": 6,
+      "x": 0,
+      "reload": 30,
+      "recoil": 0.5,
+      "shake": 0.1,
+      "shootSound": "shootSpectre",
+
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 2,
+        "damage": 100,
+        "lifetime": 32,
+        "width": 8,
+        "height": 32,
+		"inaccuracy": 2,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ]
+  "abilities": [
+  {
+    "type": liquidExplodeAbility,
+    "liquid": liquidhyperion,
+    "amount": 240,
+    "radius": 64
+  },
+  {
+    "type": "unitSpawnAbility",
+    "unit": "hyperionchonky",
+	"spawnTime": 7200,
+	"parentizeEffects": true,
+  },
+      {
+    "type": "unitSpawnAbility",
+    "unit": "hyperionbug",
+	"spawnTime": 6000,
+	"parentizeEffects": true,
+  },
+      {
+    "type": "unitSpawnAbility",
+    "unit": "hyperionspitter",
+	"spawnTime": 6000,
+	"parentizeEffects": true,
+  },
+      {
+    "type": "unitSpawnAbility",
+    "unit": "hyperionflier",
+	"spawnTime": 6000,
+	"parentizeEffects": true,
+  },
+  {
+	"type": "RegenAbility",
+	"percentAmount": 0.1,
+  }
+]
+}
