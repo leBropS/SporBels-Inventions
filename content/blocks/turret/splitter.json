@@ -89,5 +89,33 @@
     "lightOpacity": 0.75,
     "lightRadius": 25
   }
+	"carbide": {
+    "type": "BasicBulletType",
+	"ammoMultiplier": 3,
+
+    "speed": 8,
+    "lifetime": 40,
+    "damage": 50,
+	"rangeChange": 150,
+	"armorMultiplier": 0.75
+
+    "pierce": true,
+    "pierceCap": 4,
+	"buildingDamageMultiplier": 0.5,
+
+    "width": 7,
+    "height": 24,
+
+    "frontColor": "ab00e1",
+    "backColor": "7c07b2",
+
+    "trailColor": "e600ff",
+    "trailLength": 4,
+    "trailWidth": 1.5,
+
+    "lightColor": "e600ff",
+    "lightOpacity": 0.75,
+    "lightRadius": 25
+  }
 }
 "research": "breach",
