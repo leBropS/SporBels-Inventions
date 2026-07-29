@@ -1,5 +1,4 @@
 {
-  "type": mech,
   "name": "Hyperion Bug (Flyer)",
   "description": "A creature made out of hyperion. Can fly over your walls."
   "immunities": [decay],
