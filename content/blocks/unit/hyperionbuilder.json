@@ -18,6 +18,18 @@
       ],
       "time": 1800
     }
+    {
+      "unit": "hyperionflier",
+      "requirements": [
+      ],
+      "time": 1800
+    }
+    {
+      "unit": "hyperionchonky",
+      "requirements": [
+      ],
+      "time": 3600
+    }
   ],
   "requirements": [
     {
