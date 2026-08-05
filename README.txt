@@ -34,4 +34,36 @@ Planned medium-priority things for the mod:
 Planned low-priority things for the mod:
 
 -Navy (and boats)
--Add a lot more new erekir stuff
+-Add a lot more new Erekir stuff
+
+------------------
+OTHER INFORMATION:
+------------------
+
+I have took inspiration from other people's stuff, so I'll include every single inspiration here (including Real Life).
+
+Filmed Content (including Videos, Anime, Movies and Series'):
+
+-Neon Genesis Evangelion (Ramiel)
+
+Real Life:
+
+-Most jet fighters in the mod are based off real jet fighters that flew or are flying right now.
+-Most tanks in the mod are based off real tanks that were or are used right now.
+
+Other Mindustry Mods:
+
+-New Horizon (Mitochondria, Singularity)
+-Flameout (Ramiel)
+
+Video Games
+
+-Raptor: Call of the shadows (F-22FT)
+-Starship Troopers: Terran Command (Hyperion Bugs)
+-Mindustry's Neoplasm System (Hyperion Bugs)
+
+My dreams and content i added because of dreams:
+
+-Ruined Facility Map
+-Mitochondria Unit
+-Supernova Unit
