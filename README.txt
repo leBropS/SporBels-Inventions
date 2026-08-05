@@ -10,10 +10,8 @@ You may also contribute to this mod by adding whatever you want, as long as the 
 
 MOD PLANS AND DEVELOPMENT:
 
-Things added in next update (1.1.5):
-Sonvas block improvement (Some new shades of skin color and blue)
-2 new hyperion bugs (The flying guy and the big chongus guy)
-Splitter turret new ammo type (Carbide ammo that deals a lot more damage and has a lot more range than the standard ones)
+Things added in next update (1.1.6):
+Adding hyperion bugs to the spawner thing
 
 Planned high-priority things for the mod:
 
