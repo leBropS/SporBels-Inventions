@@ -40,7 +40,7 @@ Planned low-priority things for the mod:
 OTHER INFORMATION:
 ------------------
 
-I have took inspiration from other people's stuff, so I'll include every single inspiration here (including Real Life).
+I have took inspiration from other people's stuff, so I'll include most inspirations here (including Real Life).
 
 Filmed Content (including Videos, Anime, Movies and Series'):
 
