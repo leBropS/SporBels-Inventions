@@ -56,6 +56,7 @@ Other Mindustry Mods:
 
 Video Games
 
+-Cosmoteer: Starship Architect & Commander (Hyperion)
 -Raptor: Call of the shadows (F-22FT)
 -Starship Troopers: Terran Command (Hyperion Bugs)
 -Mindustry's Neoplasm System (Hyperion Bugs)
