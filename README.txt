@@ -13,6 +13,10 @@ MOD PLANS AND DEVELOPMENT:
 Things added in next update (1.1.6):
 Adding hyperion bugs to the spawner thing
 
+VERY HIGH PRIORITY EMERGENCY:
+
+-"Potentially breaking change: For security reasons, JSON now requires classes to have the @AllowSerialization annotation to be deserialized when type is ambiguous" As of build 160, this mod is broken. I have no idea how to fix this, so please do a pull request if you know how to fix this issue.
+
 Planned high-priority things for the mod:
 
 -A lot of new tanks
