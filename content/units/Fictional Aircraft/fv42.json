@@ -1,6 +1,6 @@
 {
   "name": "FV-4.2",
-  "description": "The Standard Ghaheyan Multirole Air Superiority Fighter"
+  "description": "The Standard Ghaheyan Multirole Air Superiority Fighter. Also known as the MF-1 Fighter."
   "flying": true,
   "health": 1150,
   "armor": 12,
@@ -82,8 +82,8 @@
 	    "height": 36,
 	    "makeFire": true,
         "hitShake": 8,
-        "colorFront": #d4c69e,
-	    "colorBack": #d4c69e,
+        "colorFront": d4c69e,
+	    "colorBack": d4c69e,
 	    "homingRange": 256,
 	    "homingPower": 0.1,
 		"inaccuracy": 7.5,
