@@ -11,8 +11,8 @@
     "sizeFrom": 8,
     "sizeTo": 0,
     "particles": 3,
-    "colorFrom": #ff0000,
-    "colorTo": #000000
+    "colorFrom": ff0000,
+    "colorTo": 000000
   }
   "damage": -5
 }
