@@ -14,10 +14,10 @@
     "coolant": {
       "amount": 2.5
     }
-  },
+  }
   "targetAir": false,
   "targetGround": true,
-  "targetMissiles": false
+  "targetMissiles": false,
   "recoilAmount": 20,
   "shootShake": 75,
   "inaccuracy": 1,
@@ -48,7 +48,7 @@
 	  "trailColor": #fff800,
 	  "trailInterval": 1,
 	  "trailParam": 5.0,
-	  "trailLength": 2.0,
+	  "trailLength": 2.0
     },
 	"nuke2": {
       "type": "basicBulletType",
@@ -71,15 +71,15 @@
 	  "trailColor": #fff800,
 	  "trailInterval": 1,
 	  "trailParam": 5.0,
-	  "trailLength": 2.0,
-    },
+	  "trailLength": 2.0
+    }
   },
   "requirements": [
     "advancedmodule/250",
 	"surge-alloy/1000",
 	"phase-fabric/200",
 	"plastanium/1800",
-	"thorium/2000",
+	"thorium/2000"
   ],
   "category": "turret",
   "research": "samturret"
