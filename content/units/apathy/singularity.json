@@ -184,8 +184,8 @@
             "hitShake": 8,
 	        "homingRange": 1024,
 	        "homingPower": 0.1,
-			"backColor": #0000ff,
-	        "frontColor": #00ffff,
+			"backColor": 0000ff,
+	        "frontColor": 00ffff,
 		}
 	  }
     },
