@@ -45,10 +45,6 @@
 	  "hittable": false,
 	  "reflectable": false,
       "collidesAir": false,
-	  "trailColor": #fff800,
-	  "trailInterval": 1,
-	  "trailParam": 5.0,
-	  "trailLength": 2.0
     },
 	"nuke2": {
       "type": "basicBulletType",
@@ -68,10 +64,6 @@
 	  "hittable": false,
 	  "reflectable": false,
       "collidesAir": false,
-	  "trailColor": #fff800,
-	  "trailInterval": 1,
-	  "trailParam": 5.0,
-	  "trailLength": 2.0
     }
   },
   "requirements": [
