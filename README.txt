@@ -11,11 +11,8 @@ You may also contribute to this mod by adding whatever you want, as long as the 
 MOD PLANS AND DEVELOPMENT:
 
 Things added in next update (1.1.6):
-Adding hyperion bugs to the spawner thing
-
-VERY HIGH PRIORITY EMERGENCY:
-
--"Potentially breaking change: For security reasons, JSON now requires classes to have the @AllowSerialization annotation to be deserialized when type is ambiguous" As of build 160, this mod is broken. I have no idea how to fix this, so please do a pull request if you know how to fix this issue.
+-Adding hyperion bugs to the spawner thing
+-"Potentially breaking change: For security reasons, JSON now requires classes to have the @AllowSerialization annotation to be deserialized when type is ambiguous" Fixed this issue. A side effect of this probably is that missiles of most jet fighters have got a new color!
 
 Planned high-priority things for the mod:
 
