@@ -1,6 +1,6 @@
 {
   "name": "FV-6P1",
-  "description": "An improved version of the FV-4.2"
+  "description": "An improved version of the FV-4.2. Also known as the MF-2 Fighter."
   "flying": true,
   "health": 1325,
   "armor": 14,
@@ -82,8 +82,8 @@
 	    "height": 36,
 	    "makeFire": true,
         "hitShake": 8,
-        "colorFront": #d4c69e,
-	    "colorBack": #d4c69e,
+        "colorFront": d4c69e,
+	    "colorBack": d4c69e,
 	    "homingRange": 256,
 	    "homingPower": 0.1,
 		"inaccuracy": 7.5,
