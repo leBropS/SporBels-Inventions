@@ -8,15 +8,17 @@ Once you have ideas and maps done, make sure to contact me in any way.
 Also when you are making maps, you should know this mod is unfinished. I plan to add tanks, helicopters and more buildings.
 You may also contribute to this mod by adding whatever you want, as long as the creator approves it. Thaaanks :D
 
+beware: i have halted development on this mod for an unknown amount of time (prolly pernament) cuz im too lazy and unmotivated for this specific project.
+
 MOD PLANS AND DEVELOPMENT:
 
-Things added in next update (1.1.6):
--Adding hyperion bugs to the spawner thing
--"Potentially breaking change: For security reasons, JSON now requires classes to have the @AllowSerialization annotation to be deserialized when type is ambiguous" Fixed this issue. A side effect of this probably is that missiles of most jet fighters have got a new color!
+Things added in next update (1.1.7):
+none
 
 Planned high-priority things for the mod:
 
--A lot of new tanks
+-Buff the iron extractor
+-A lot of new tanks (spriting is hell im too lazy for ts)
 -Advanced Force Field (4x4 late-game block with a very low down-time to counter nukes)
 -2 New turrets and a resource for the Apathy, to counter their own units.
 -More infantry variants
