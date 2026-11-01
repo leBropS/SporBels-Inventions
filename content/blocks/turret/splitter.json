@@ -40,7 +40,7 @@
 
     "speed": 8,
     "lifetime": 20,
-    "damage": 28.25,
+    "damage": 31.75,
 
     "pierce": true,
     "pierceCap": 2,
@@ -67,7 +67,7 @@
 
     "speed": 8,
     "lifetime": 30,
-    "damage": 31.75,
+    "damage": 36.5,
 	"rangeChange": 75,
 	"armorMultiplier": 0.81
 
@@ -95,7 +95,7 @@
 
     "speed": 8,
     "lifetime": 40,
-    "damage": 50,
+    "damage": 60,
 	"rangeChange": 150,
 	"armorMultiplier": 0.75
 
