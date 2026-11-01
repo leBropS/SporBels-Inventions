@@ -1,6 +1,6 @@
 {
-  "name": "FV-4.2",
-  "description": "The Standard Ghaheyan Multirole Air Superiority Fighter. Also known as the MF-1 Fighter."
+  "name": "MF-1",
+  "description": "The Standard Ghaheyan Multirole Air Superiority Fighter. Also known as the FV-4.2 Fighter."
   "flying": true,
   "health": 1150,
   "armor": 12,
