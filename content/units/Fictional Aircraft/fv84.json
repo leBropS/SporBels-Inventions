@@ -1,6 +1,6 @@
 {
-  "name": "FV-8.4",
-  "description": "The ultimate buildable jet fighter of this mod. Also known as the MF-3 Fighter. [yellow]Considered to be a superweapon."
+  "name": "MF-3",
+  "description": "The ultimate buildable jet fighter of this mod. Also known as the FV-8.4 Fighter."
   "flying": true,
   "health": 1500,
   "armor": 16,
