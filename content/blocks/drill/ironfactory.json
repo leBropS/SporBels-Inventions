@@ -10,11 +10,11 @@
   "hasItems": true,
   "hasLiquids": true,
   "itemCapacity": 10,
-  "craftTime": 600,
+  "craftTime": 300,
   "craftEffect": "smokeCloud",
   "updateEffect": "none",
   "consumes": {
-    "power": 0.1,
+    "power": 0.2,
   },
   "requirements": [
     "graphite/10"
