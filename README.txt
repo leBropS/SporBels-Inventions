@@ -13,11 +13,12 @@ beware: i have halted development on this mod for an unknown amount of time (pro
 MOD PLANS AND DEVELOPMENT:
 
 Things added in next update (1.1.7):
-none
+Rename the FV aircraft into the MF's
+Buffed Iron Extractor a little bit
+Buffed Splitter's damage
 
 Planned high-priority things for the mod:
 
--Buff the iron extractor
 -A lot of new tanks (spriting is hell im too lazy for ts)
 -Advanced Force Field (4x4 late-game block with a very low down-time to counter nukes)
 -2 New turrets and a resource for the Apathy, to counter their own units.
