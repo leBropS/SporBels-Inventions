@@ -1,0 +1,195 @@
+{
+	"name": "Maglev",
+	"description": "This is a powerful Apathy vessel. Although it may not be durable for it's power, it regenerates extremely fast and has a lot of firepower."
+	"health": 120000,
+	"armor": 150,
+	
+	"hitSize": 100,
+	"speed": 3,
+    "outlineColor": "272930FF",
+    "accel": 0.09,
+    "drag": 0.07,
+	"engineSize": 0.001,
+    "engineColor": 6ecdec,
+    "rotateSpeed": 3.5,
+    "strafePenalty": 0.5,
+    "omniMovement": true,
+    "canDrown": false,
+	"flying": true,
+    "range": 180,
+    "targetAir": true,
+    "targetGround": true,
+
+	
+	  "abilities": [
+	{
+	  "type": "regenAbility",
+	  "amount": 100
+	},
+  ],
+    "weapons": [
+	{
+      "x": 0,
+      "y": 0,
+      "reload": 10,
+	  "recoil": 4,
+	  "mirror": true,
+	  "shootSound": "shootDiffuse",
+	      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 1,
+        "lifetime": 5,
+        "damage": 100,
+
+        "width": 10,
+        "height": 15,
+
+        "frontColor": "3bd9ff",
+        "backColor": "3bd9ff",
+
+        "trailColor": "3bd9ff",
+        "trailLength": 15,
+        "trailWidth": 3,
+
+        "lightColor": "3bd9ff",
+        "lightOpacity": 0.75,
+        "lightRadius": 50,
+		"fragBullets": 16
+		"fragSpread": 360
+  
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "speed": 2.5,
+        "lifetime": 1800,
+        "damage": 100,
+
+        "width": 10,
+        "height": 15,
+
+        "frontColor": "3bd9ff",
+        "backColor": "3bd9ff",
+
+        "trailColor": "3bd9ff",
+        "trailLength": 15,
+        "trailWidth": 3,
+
+        "lightColor": "3bd9ff",
+        "lightOpacity": 0.75,
+        "lightRadius": 50,
+      }
+      }
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "reload": 30,
+	  "recoil": 4,
+	  "mirror": true,
+	  "shootSound": "shootSpectre",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 12.5,
+        "lifetime": 60,
+        "damage": 200,
+	    "pierce": true
+	    "pierceBuilding": true
+	    "pierceCap": 4
+
+        "width": 10,
+        "height": 15,
+
+        "frontColor": "3bd9ff",
+        "backColor": "3bd9ff",
+
+        "trailColor": "3bd9ff",
+        "trailLength": 15,
+        "trailWidth": 3,
+
+        "lightColor": "3bd9ff",
+        "lightOpacity": 0.75,
+        "lightRadius": 50,
+      }
+    },
+	{
+      "x": 8,
+      "y": 2,
+      "reload": 28,
+	  "recoil": 4,
+	  "mirror": true,
+	  "shootSound": "shootSpectre",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 12.5,
+        "lifetime": 60,
+        "damage": 200,
+	    "pierce": true
+	    "pierceBuilding": true
+	    "pierceCap": 4
+
+        "width": 10,
+        "height": 15,
+
+        "frontColor": "3bd9ff",
+        "backColor": "3bd9ff",
+
+        "trailColor": "3bd9ff",
+        "trailLength": 15,
+        "trailWidth": 3,
+
+        "lightColor": "3bd9ff",
+        "lightOpacity": 0.75,
+        "lightRadius": 50,
+      }
+    },
+	{
+      "x": 10,
+      "y": 0,
+      "reload": 26,
+	  "recoil": 4,
+	  "mirror": true,
+	  "shootSound": "shootSpectre",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 12.5,
+        "lifetime": 60,
+        "damage": 200,
+	    "pierce": true
+	    "pierceBuilding": true
+	    "pierceCap": 4
+
+        "width": 10,
+        "height": 15,
+
+        "frontColor": "3bd9ff",
+        "backColor": "3bd9ff",
+
+        "trailColor": "3bd9ff",
+        "trailLength": 15,
+        "trailWidth": 3,
+
+        "lightColor": "3bd9ff",
+        "lightOpacity": 0.75,
+        "lightRadius": 50,
+      }
+    },
+	{
+	  "y": 0,
+      "x": 0,
+      "reload": 300,
+      "recoil": 0.0,
+      "shake": 0,
+      "shootSound": "shootOmura",
+
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 10000,
+		"pierce": true,
+        "lifetime": 60,
+        "width": 20,
+        "length": 8000,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+      }
+    },
+  ],
+}
