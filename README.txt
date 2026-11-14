@@ -12,10 +12,11 @@ beware: i have halted development on this mod for an unknown amount of time (pro
 
 MOD PLANS AND DEVELOPMENT:
 
-Things added in next update (1.1.7):
-Rename the FV aircraft into the MF's
+Things added in next update (1.2):
+Rename the FV aircraft into the MF's due to Ghaheyan lore reasons
 Buffed Iron Extractor a little bit
 Buffed Splitter's damage
+Added the new "Maglev" apathy unit
 
 Planned high-priority things for the mod:
 
