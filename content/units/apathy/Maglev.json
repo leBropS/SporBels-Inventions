@@ -183,6 +183,7 @@
       "bullet": {
         "type": "LaserBulletType",
         "damage": 10000,
+		"armorMultiplier": 0,
 		"pierce": true,
         "lifetime": 60,
         "width": 20,
