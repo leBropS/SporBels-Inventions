@@ -82,7 +82,7 @@
 	{
       "x": 0,
       "y": -8,
-      "reload": 3120,
+      "reload": 2670,
 	  "recoil": 10,
 	  "mirror": true,
 	  "shootSound": "shootNavanax",
@@ -127,6 +127,27 @@
         "lightColor": "3bd9ff",
         "lightOpacity": 0.75,
         "lightRadius": 50,
+		"fragBullets": 5
+		        "fragBullet": {
+        "type": "BasicBulletType",
+        "speed": 2,
+        "lifetime": 300,
+        "damage": 50,
+
+        "width": 5,
+        "height": 7.5,
+
+        "frontColor": "3bd9ff",
+        "backColor": "3bd9ff",
+
+        "trailColor": "3bd9ff",
+        "trailLength": 7.5,
+        "trailWidth": 1.5,
+
+        "lightColor": "3bd9ff",
+        "lightOpacity": 0.75,
+        "lightRadius": 50,
+      }
       }
       }
     },
