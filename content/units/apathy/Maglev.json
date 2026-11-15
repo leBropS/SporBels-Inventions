@@ -4,7 +4,7 @@
 	"health": 120000,
 	"armor": 150,
 	
-	"hitSize": 100,
+	"hitSize": 80,
 	"speed": 3,
     "outlineColor": "272930FF",
     "accel": 0.09,
@@ -90,7 +90,7 @@
         "type": "BasicBulletType",
         "speed": 4,
         "lifetime": 300,
-        "damage": 60000,
+        "damage": 80000,
 
         "width": 40,
         "height": 60,
@@ -112,7 +112,7 @@
         "type": "BasicBulletType",
         "speed": 1,
         "lifetime": 3600,
-        "damage": 250,
+        "damage": 300,
 
         "width": 10,
         "height": 15,
@@ -127,12 +127,12 @@
         "lightColor": "3bd9ff",
         "lightOpacity": 0.75,
         "lightRadius": 50,
-		"fragBullets": 5
+		"fragBullets": 8
 		        "fragBullet": {
         "type": "BasicBulletType",
         "speed": 2,
         "lifetime": 300,
-        "damage": 50,
+        "damage": 80,
 
         "width": 5,
         "height": 7.5,
