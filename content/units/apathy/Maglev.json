@@ -90,29 +90,29 @@
         "type": "BasicBulletType",
         "speed": 4,
         "lifetime": 300,
-        "damage": 100,
+        "damage": 60000,
 
-        "width": 20,
-        "height": 30,
+        "width": 40,
+        "height": 60,
 
         "frontColor": "3bd9ff",
         "backColor": "3bd9ff",
 
         "trailColor": "3bd9ff",
-        "trailLength": 30,
-        "trailWidth": 6,
+        "trailLength": 48,
+        "trailWidth": 10,
 
         "lightColor": "3bd9ff",
         "lightOpacity": 0.75,
         "lightRadius": 50,
-		"fragBullets": 256
+		"fragBullets": 1024
 		"fragSpread": 360
   
       "fragBullet": {
         "type": "BasicBulletType",
         "speed": 1,
         "lifetime": 3600,
-        "damage": 200,
+        "damage": 250,
 
         "width": 10,
         "height": 15,
