@@ -262,12 +262,13 @@
         "length": 8000,
 		"laserAbsorb": false,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
-		  "fragBullets": 4
+		  "fragBullets": 32
 		        "fragBullet": {
         "type": "BasicBulletType",
-        "speed": 2,
+        "speed": 1.2,
+		"accel": 0.02
         "lifetime": 300,
-        "damage": 100,
+        "damage": 500,
 
         "width": 5,
         "height": 7.5,
