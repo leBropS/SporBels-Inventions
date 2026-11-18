@@ -8,7 +8,7 @@ Once you have ideas and maps done, make sure to contact me in any way.
 Also when you are making maps, you should know this mod is unfinished. I plan to add tanks, helicopters and more buildings.
 You may also contribute to this mod by adding whatever you want, as long as the creator approves it. Thaaanks :D
 
-beware: i have halted development on this mod for an unknown amount of time (prolly pernament) cuz im too lazy and unmotivated for this specific project.
+beware: mod development not active and very unstable/unreliable. i only work on the mod whenever i feel motivated enough.
 
 MOD PLANS AND DEVELOPMENT:
 
