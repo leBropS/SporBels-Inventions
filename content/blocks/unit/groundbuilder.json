@@ -81,6 +81,24 @@
       ],
       "time": 1800
     },
+	{
+      "unit": "amx-elc-bis",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 15
+        },
+        {
+          "item": "steel",
+          "amount": 15
+        },
+        {
+          "item": "shell1",
+          "amount": 30
+        },
+      ],
+      "time": 2100
+    },
   ],
   "requirements": [
     {
