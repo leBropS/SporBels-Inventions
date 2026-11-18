@@ -12,12 +12,9 @@ beware: i have halted development on this mod for an unknown amount of time (pro
 
 MOD PLANS AND DEVELOPMENT:
 
-Things added in next update (1.2):
-Rename the FV aircraft into the MF's due to Ghaheyan lore reasons
-Buffed Iron Extractor a little bit
-Buffed Splitter's damage
-Added the new "Maglev" apathy unit
-Mod description slightly altered
+Things added in next update (1.2.1):
+-Buffed Panzer IV's damage
+-Nerfed T-34's damage (these two changes are done because historically the Pz. IV has a superior gun.)
 
 Planned high-priority things for the mod:
 
