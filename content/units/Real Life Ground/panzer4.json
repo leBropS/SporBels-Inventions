@@ -44,7 +44,7 @@
       "bullet": {
         "type": "basicBulletType",
         "speed": 24,
-        "damage": 150,
+        "damage": 165,
 		"armorMultiplier": -1.5,
 		"pierce": true,
 		"pierceCap": 2,
