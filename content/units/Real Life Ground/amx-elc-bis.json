@@ -1,0 +1,59 @@
+{
+  "type": tank,
+  "name": "AMX ELC bis",
+  "description": "The AMX ELC bis is a French light tank, featuring little armor but a very high amount of mobility and a strong cannon."
+  "flying": false,
+  "health": 300,
+  "armor": 1,
+  "hidden": false,
+  "research": {
+    "parent": "groundbuilder",
+      "requirements": [
+      "silicon/300",
+      "steel/1200",
+      "shell1/900",
+    ]
+  },
+  "speed": 2.4,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 1.25,
+  "hitSize": 18,
+  "strafePenalty": 1.75,
+  "omniMovement": false,
+  "collidesTiles": true,
+  "canDrown": true,
+  "lowAltitude": true,
+  "crushFragile": true,
+
+  "targetAir": false,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "reload": 420,
+      "rotate": true,
+	  "rotateSpeed": 1.2,
+	  "recoil": 0.5
+	  "mirror": false
+	  "shootSound": "shootSpectre",
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 24,
+        "damage": 105,
+		"armorMultiplier": -2,
+		"pierce": true,
+		"pierceCap": 2,
+        "lifetime": 20,
+        "width": 8,
+        "height": 28,
+		"inaccuracy": 2,
+		"collidesAir": false,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ]
+}
