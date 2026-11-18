@@ -15,27 +15,30 @@ MOD PLANS AND DEVELOPMENT:
 Things added in next update (1.2.1):
 -Buffed Panzer IV's damage
 -Nerfed T-34's damage (these two changes are done because historically the Pz. IV has a superior gun.)
+-Added the AMX ELC bis (sprite missing, open for sprites)
 
 Planned high-priority things for the mod:
 
 -A lot of new tanks (spriting is hell im too lazy for ts)
 -Advanced Force Field (4x4 late-game block with a very low down-time to counter nukes)
--2 New turrets and a resource for the Apathy, to counter their own units.
--More infantry variants
+-Balancing the mod
+-Fun content and sandbox stuff
 
 Planned medium-priority things for the mod:
 
 -Helicopters
 -Warden turret (better phantom)
 -Apathy content
--Fun content and sandbox stuff
 -Adding the campaign
 -More maps
+-2 New turrets and a resource for the Apathy, to counter their own units.
+-More infantry variants
 
 Planned low-priority things for the mod:
 
 -Navy (and boats)
 -Add a lot more new Erekir stuff
+-Spritework for the tanks
 
 ------------------
 OTHER INFORMATION:
