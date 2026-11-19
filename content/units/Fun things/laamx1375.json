@@ -34,7 +34,7 @@
       "shoot": {
       "type": "ShootPattern",
       "shots": 3,
-      "shotDelay": 2
+      "shotDelay": 4
       },
         "bullet": {
           "type": "basicBulletType",
