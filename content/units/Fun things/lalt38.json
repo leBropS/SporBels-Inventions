@@ -45,33 +45,10 @@
 	    "collidesAir": true,
         "shootEffect": "shootSmall",
         "smokeEffect": "shootSmallSmoke"
-		"fragBullets": 8
-		        "fragBullet": {
-        "type": "LaserBulletType",
-        "damage": 1000,
-		"armorMultiplier": 0,
-		"pierce": true,
-        "lifetime": 60,
-        "width": 20,
-        "length": 80,
-		"laserAbsorb": false,
-		"colors": [0097dd55, 3bd9ffaa, ffffffff]
-		  "fragBullets": 8
-				"fragBullet": {
-        "type": "LaserBulletType",
-        "damage": 100,
-		"armorMultiplier": 0,
-		"pierce": true,
-        "lifetime": 60,
-        "width": 20,
-        "length": 8,
-		"laserAbsorb": false,
-		"colors": [0097dd55, 3bd9ffaa, ffffffff]
-        }
 		"lightning": 100,
-		"lightningLength": 24,
-		"lightningLengthRand": 216,
-		"lightningDamage": 10,
+		"lightningLength": 80,
+		"lightningLengthRand": 800,
+		"lightningDamage": 1,
 		"bulletInterval": 5,
 		"intervalBullets": 4,
 		"intervalBullet": {
@@ -93,6 +70,29 @@
 			"backColor": 0000ff,
 	        "frontColor": 00ffff,
 	     	}
+		"fragBullets": 8
+		        "fragBullet": {
+        "type": "LaserBulletType",
+        "damage": 1000,
+		"armorMultiplier": 0,
+		"pierce": true,
+        "lifetime": 300,
+        "width": 20,
+        "length": 80,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+		  "fragBullets": 8
+				"fragBullet": {
+        "type": "LaserBulletType",
+        "damage": 100,
+		"armorMultiplier": 0,
+		"pierce": true,
+        "lifetime": 300,
+        "width": 20,
+        "length": 8,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+        }
         }
       }
     }
