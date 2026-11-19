@@ -53,7 +53,7 @@
 		"pierce": true,
         "lifetime": 60,
         "width": 20,
-        "length": 800,
+        "length": 80,
 		"laserAbsorb": false,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
 		  "fragBullets": 8
@@ -64,21 +64,9 @@
 		"pierce": true,
         "lifetime": 60,
         "width": 20,
-        "length": 80,
-		"laserAbsorb": false,
-		"colors": [0097dd55, 3bd9ffaa, ffffffff]
-		  "fragBullets": 8
-				"fragBullet": {
-        "type": "LaserBulletType",
-        "damage": 10,
-		"armorMultiplier": 0,
-		"pierce": true,
-        "lifetime": 60,
-        "width": 20,
         "length": 8,
 		"laserAbsorb": false,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
-        }
         }
         }
       }
