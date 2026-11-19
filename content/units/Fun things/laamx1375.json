@@ -1,0 +1,56 @@
+{
+  "type": tank,
+  "name": "Lore Accurate AMX 13 75",
+  "description": "AMX 13 75 but it's now way too op."
+  "flying": false,
+  "health": 5600,
+  "armor": 16,
+  "hidden": false,
+  "speed": 3.2,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 2.4,
+  "hitSize": 20,
+  "strafePenalty": 1.75,
+  "omniMovement": false,
+  "collidesTiles": true,
+  "canDrown": true,
+  "lowAltitude": true,
+  "crushFragile": true,
+
+  "targetAir": false,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "reload": 30,
+      "rotate": true,
+	    "rotateSpeed": 2.4,
+	    "recoil": 0.5
+	    "mirror": false
+	    "shootSound": "shootSpectre",
+      "shoot": {
+      "type": "ShootPattern",
+      "shots": 3,
+      "shotDelay": 2
+      },
+        "bullet": {
+          "type": "basicBulletType",
+          "speed": 36,
+          "damage": 85,
+	      	"armorMultiplier": -2.5,
+	      	"pierce": true,
+	      	"pierceCap": 2,
+          "lifetime": 30,
+          "width": 8,
+          "height": 28,
+	      	"inaccuracy": 2,
+	        "collidesAir": false,
+          "shootEffect": "shootSmall",
+          "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ]
+}
