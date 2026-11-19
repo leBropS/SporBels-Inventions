@@ -109,6 +109,7 @@
 		{
 		  "item": "aluminum",
 		  "amount": 20,
+		},
         {
           "item": "steel",
           "amount": 25
