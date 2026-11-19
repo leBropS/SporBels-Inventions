@@ -9,9 +9,10 @@
   "research": {
     "parent": "groundbuilder",
       "requirements": [
-      "silicon/150",
-      "steel/150",
-      "shell1/300",
+      "silicon/250",
+      "aluminum/200",
+      "steel/250",
+      "shell2/300",
     ]
   },
   "speed": 2.3,
