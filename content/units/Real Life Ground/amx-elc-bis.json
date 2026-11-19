@@ -33,7 +33,7 @@
     {
 	  "name": "amx-elc-bis-weapon"
       "x": 0,
-      "y": -8,
+      "y": -6,
       "reload": 420,
       "rotate": true,
 	  "rotateSpeed": 1.2,
