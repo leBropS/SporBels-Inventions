@@ -1,7 +1,7 @@
 {
   "type": tank,
   "name": "Lore Accurate LT vz. 38",
-  "description": "A friend of mine wanted it. Here it is! With a new experimental feature!"
+  "description": "A friend of mine wanted it. Here it is! With a new experimental weapon!"
   "flying": false,
   "health": 1000000,
   "armor": 1000,
@@ -32,19 +32,55 @@
 	  "rotateSpeed": 1000,
 	  "recoil": 0.5
 	  "mirror": false
-	  "shootSound": "shootSpectre",
+	  "shootSound": "shootOmura",
       "bullet": {
         "type": "basicBulletType",
         "speed": 24,
         "damage": 10000,
-	    	"armorMultiplier": -10,
+	    "armorMultiplier": -10,
         "lifetime": 60,
         "width": 8,
         "height": 28,
-	    	"inaccuracy": 1,
-	    	"collidesAir": true,
+	    "inaccuracy": 1,
+	    "collidesAir": true,
         "shootEffect": "shootSmall",
         "smokeEffect": "shootSmallSmoke"
+		"fragBullets": 8
+		        "fragBullet": {
+        "type": "LaserBulletType",
+        "damage": 1000,
+		"armorMultiplier": 0,
+		"pierce": true,
+        "lifetime": 60,
+        "width": 20,
+        "length": 800,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+		  "fragBullets": 8
+				"fragBullet": {
+        "type": "LaserBulletType",
+        "damage": 100,
+		"armorMultiplier": 0,
+		"pierce": true,
+        "lifetime": 60,
+        "width": 20,
+        "length": 80,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+		  "fragBullets": 8
+				"fragBullet": {
+        "type": "LaserBulletType",
+        "damage": 10,
+		"armorMultiplier": 0,
+		"pierce": true,
+        "lifetime": 60,
+        "width": 20,
+        "length": 8,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+        }
+        }
+        }
       }
     }
   ]
