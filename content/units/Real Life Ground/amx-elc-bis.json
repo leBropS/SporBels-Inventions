@@ -17,7 +17,7 @@
   "speed": 2.4,
   "accel": 0.1,
   "drag": 0.1,
-  "rotateSpeed": 1.25,
+  "rotateSpeed": 1.4,
   "hitSize": 18,
   "strafePenalty": 1.75,
   "omniMovement": false,
