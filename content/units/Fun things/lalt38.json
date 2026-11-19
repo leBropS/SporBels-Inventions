@@ -1,0 +1,51 @@
+{
+  "type": tank,
+  "name": "Lore Accurate LT vz. 38",
+  "description": "A friend of mine wanted it. Here it is! With a new experimental feature!"
+  "flying": false,
+  "health": 1000000,
+  "armor": 1000,
+  "hidden": false,
+
+  "speed": 4,
+  "accel": 0.1,
+  "drag": 0.1,
+  "rotateSpeed": 60,
+  "hitSize": 20,
+  "strafePenalty": 1.75,
+  "omniMovement": false,
+  "collidesTiles": true,
+  "canDrown": false,
+  "lowAltitude": true,
+  "crushFragile": true,
+
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "name": "lt38-weapon",
+      "x": 0,
+      "y": 1,
+      "reload": 60,
+      "rotate": true,
+	  "rotateSpeed": 1000,
+	  "recoil": 0.5
+	  "mirror": false
+	  "shootSound": "shootSpectre",
+      "bullet": {
+        "type": "basicBulletType",
+        "speed": 24,
+        "damage": 10000,
+	    	"armorMultiplier": -10,
+        "lifetime": 60,
+        "width": 8,
+        "height": 28,
+	    	"inaccuracy": 1,
+	    	"collidesAir": true,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke"
+      }
+    }
+  ]
+}
