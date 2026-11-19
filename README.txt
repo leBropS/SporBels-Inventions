@@ -15,8 +15,8 @@ MOD PLANS AND DEVELOPMENT:
 Things added in next update (1.2.1):
 -Buffed Panzer IV's damage
 -Nerfed T-34's damage (these two changes are done because historically the Pz. IV has a superior gun.)
--Added the AMX ELC bis (sprite missing, open for sprites)
--Added the AMX 13 75, including a lore accurate version (sprite missing, open for sprites)
+-Added the AMX ELC bis
+-Added the AMX 13 75, including a lore accurate version
 -Added the Lore Accurate LT vz. 38
 
 Planned high-priority things for the mod:
@@ -40,7 +40,6 @@ Planned low-priority things for the mod:
 
 -Navy (and boats)
 -Add a lot more new Erekir stuff
--Spritework for the tanks
 
 ------------------
 OTHER INFORMATION:
