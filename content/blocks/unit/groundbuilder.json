@@ -99,6 +99,27 @@
       ],
       "time": 2100
     },
+	{
+      "unit": "amx1375",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 25
+        },
+		{
+		  "item": "aluminum",
+		  "amount": 20,
+        {
+          "item": "steel",
+          "amount": 25
+        },
+        {
+          "item": "shell2",
+          "amount": 30
+        },
+      ],
+      "time": 3600
+    },
   ],
   "requirements": [
     {
