@@ -1,7 +1,7 @@
 {
   "type": tank,
   "name": "AMX ELC bis",
-  "description": "The AMX ELC bis is a French light tank, featuring little armor but a very high amount of mobility and a strong cannon."
+  "description": "The AMX ELC bis is a French light tank destroyer, featuring little armor but a very high amount of mobility and a strong cannon."
   "flying": false,
   "health": 300,
   "armor": 1,
