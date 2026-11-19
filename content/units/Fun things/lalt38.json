@@ -68,6 +68,31 @@
 		"laserAbsorb": false,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
         }
+		"lightning": 100,
+		"lightningLength": 24,
+		"lightningLengthRand": 216,
+		"lightningDamage": 10,
+		"bulletInterval": 5,
+		"intervalBullets": 4,
+		"intervalBullet": {
+			"type": "basicBulletType",
+            "damage": 5,
+            "speed": 10,
+	        "splashDamage": 10,
+            "hitEffect": "massiveExplosion",
+            "despawnEffect": "massiveExplosion",
+            "splashDamageRadius": 64,
+            "splashDamagePierce": true,
+	        "lifetime": 60,
+	        "width": 2.4,
+	        "height": 4.8,
+	        "makeFire": true,
+            "hitShake": 0.8,
+	        "homingRange": 1024,
+	        "homingPower": 0.1,
+			"backColor": 0000ff,
+	        "frontColor": 00ffff,
+	     	}
         }
       }
     }
