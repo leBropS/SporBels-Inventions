@@ -1,7 +1,7 @@
 {
   "type": tank,
   "name": "AMX 13 75",
-  "description": "The AMX 13 75 is a french light tank."
+  "description": "The AMX 13 75 is a french light tank, featuring a magazine."
   "flying": false,
   "health": 560,
   "armor": 2,
