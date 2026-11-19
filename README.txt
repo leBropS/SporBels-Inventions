@@ -16,7 +16,7 @@ Things added in next update (1.2.1):
 -Buffed Panzer IV's damage
 -Nerfed T-34's damage (these two changes are done because historically the Pz. IV has a superior gun.)
 -Added the AMX ELC bis (sprite missing, open for sprites)
--Added the AMX 13 75 (sprite missing, open for sprites)
+-Added the AMX 13 75, including a lore accurate version (sprite missing, open for sprites)
 
 Planned high-priority things for the mod:
 
