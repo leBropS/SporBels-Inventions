@@ -16,7 +16,7 @@ Things added in next update (1.2.1):
 -Buffed Panzer IV's damage
 -Nerfed T-34's damage (these two changes are done because historically the Pz. IV has a superior gun.)
 -Added the AMX ELC bis
--Added the AMX 13 75, including a lore accurate version
+-Added the AMX 13 75, including a lore accurate version (SPRITE MISSING! Open for sprites)
 -Added the Lore Accurate LT vz. 38
 -New Apathy turret!
 
