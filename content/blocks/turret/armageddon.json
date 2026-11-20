@@ -17,6 +17,7 @@
     }
   }
   "targetAir": true,
+  "xRand": 40
   "targetGround": true,
   "targetMissiles": true,
   "recoilAmount": 10,
@@ -36,11 +37,10 @@
       "hyperion": {
         "type": "LaserBulletType",
         "damage": 10000,
-		"pierce": true,
+		"pierce": false,
         "lifetime": 15,
         "width": 40,
         "length": 8000,
-		"laserAbsorb": false,
 		"colors": [0097dd55, 3bd9ffaa, ffffffff]
 		"fragBullets": 10
 		        "fragBullet": {
