@@ -34,6 +34,7 @@ Planned medium-priority things for the mod:
 -Warden turret (better phantom)
 -More maps
 -More infantry variants
+-Lore Accurate Striker Eureka
 
 Planned low-priority things for the mod:
 
@@ -68,6 +69,7 @@ Video Games
 -Starship Troopers: Terran Command (Hyperion Bugs)
 -Mindustry's Neoplasm System (Hyperion Bugs)
 -Touhou Project (Maglev unit, specifically it's frag weapons)
+-FTL: Faster Than Light (Armageddon turret)
 
 My dreams and content i added because of dreams:
 
