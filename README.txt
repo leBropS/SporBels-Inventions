@@ -18,28 +18,28 @@ Things added in next update (1.2.1):
 -Added the AMX ELC bis
 -Added the AMX 13 75, including a lore accurate version
 -Added the Lore Accurate LT vz. 38
+-New Apathy turret!
 
 Planned high-priority things for the mod:
 
--A lot of new tanks (spriting is hell im too lazy for ts)
+-A lot of new tanks (spriting is hell fr)
 -Advanced Force Field (4x4 late-game block with a very low down-time to counter nukes)
 -Balancing the mod
 -Fun content and sandbox stuff
+-Apathy content
 
 Planned medium-priority things for the mod:
 
 -Helicopters
 -Warden turret (better phantom)
--Apathy content
--Adding the campaign
 -More maps
--2 New turrets and a resource for the Apathy, to counter their own units.
 -More infantry variants
 
 Planned low-priority things for the mod:
 
 -Navy (and boats)
 -Add a lot more new Erekir stuff
+-Adding the campaign
 
 ------------------
 OTHER INFORMATION:
