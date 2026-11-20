@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Armageddon",
-  "description": "A massive turret from The Apathy, that fires slow but can quickly ramp up it's firerate. [yellow]Considered to be a superweapon.",
+  "description": "A massive turret from The Apathy, that fires slow but can quickly ramp up it's firerate, firing extremely powerful beams. [yellow]Considered to be a superweapon.",
   "size": 6,
   "health": 120000,
   "armor": 1200,
@@ -33,25 +33,38 @@
   "shotDelay": 31
       },
   "ammoTypes": {
-    "hyperion": {
-      "type": "basicBulletType",
-      "damage": 7500,
-      "speed": 20,
-	  "ammoMultiplier": 1,
-	  "splashDamage": 15000,
-      "hitEffect": "massiveExplosion",
-      "despawnEffect": "massiveExplosion",
-      "splashDamageRadius": 2000,
-      "splashDamagePierce": false,
-	  "lifetime": 240,
-	  "width": 24,
-	  "height": 96,
-	  "makeFire": true,
-      "hitShake": 250,
-	  "hittable": false,
-	  "reflectable": false,
-      "collidesAir": false,
-    },
+      "hyperion": {
+        "type": "LaserBulletType",
+        "damage": 10000,
+		"pierce": true,
+        "lifetime": 15,
+        "width": 40,
+        "length": 8000,
+		"laserAbsorb": false,
+		"colors": [0097dd55, 3bd9ffaa, ffffffff]
+		"fragBullets": 10
+		        "fragBullet": {
+        "type": "BasicBulletType",
+        "speed": 1.0,
+		"accel": 0.1
+        "lifetime": 60,
+        "damage": 1000,
+
+        "width": 10,
+        "height": 15,
+
+        "frontColor": "3bd9ff",
+        "backColor": "3bd9ff",
+
+        "trailColor": "3bd9ff",
+        "trailLength": 7.5,
+        "trailWidth": 1.5,
+
+        "lightColor": "3bd9ff",
+        "lightOpacity": 0.75,
+        "lightRadius": 50,
+      }
+      }
   },
   "requirements": [
     "supercomputer/2000",
