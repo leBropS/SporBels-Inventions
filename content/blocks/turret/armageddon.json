@@ -27,6 +27,11 @@
   "rotateSpeed": 2,
   "shootSound": "shootDisperse",
   "volume": 300,
+  "shoot": {
+  "type": "ShootPattern",
+  "shots": 30,
+  "shotDelay": 31
+      },
   "ammoTypes": {
     "hyperion": {
       "type": "basicBulletType",
