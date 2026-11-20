@@ -9,12 +9,9 @@
   "ammoPerShot": 1,
   "reload": 30,
   "range": 4000,
-  "coolantMultiplier": 1,
+  "coolantMultiplier": 0.0000001,
   "consumes": {
 	"power": 1000
-    "coolant": {
-      "amount": 2.5
-    }
   }
   "targetAir": true,
   "xRand": 40
