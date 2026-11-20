@@ -1,0 +1,59 @@
+{
+  "type": "ItemTurret",
+  "name": "Armageddon",
+  "description": "A massive turret from The Apathy, that fires slow but can quickly ramp up it's firerate. [yellow]Considered to be a superweapon.",
+  "size": 6,
+  "health": 120000,
+  "armor": 1200,
+  "maxAmmo": 120,
+  "ammoPerShot": 1,
+  "reload": 30,
+  "range": 4000,
+  "coolantMultiplier": 1,
+  "consumes": {
+	"power": 1000
+    "coolant": {
+      "amount": 2.5
+    }
+  }
+  "targetAir": true,
+  "targetGround": true,
+  "targetMissiles": true,
+  "recoilAmount": 10,
+  "shootShake": 20,
+  "inaccuracy": 2,
+  "restitution": 0.01,
+  "cooldown": 0.01,
+  "rotateSpeed": 2,
+  "shootSound": "shootDisperse",
+  "volume": 300,
+  "ammoTypes": {
+    "hyperion": {
+      "type": "basicBulletType",
+      "damage": 7500,
+      "speed": 20,
+	  "ammoMultiplier": 1,
+	  "splashDamage": 15000,
+      "hitEffect": "massiveExplosion",
+      "despawnEffect": "massiveExplosion",
+      "splashDamageRadius": 2000,
+      "splashDamagePierce": false,
+	  "lifetime": 240,
+	  "width": 24,
+	  "height": 96,
+	  "makeFire": true,
+      "hitShake": 250,
+	  "hittable": false,
+	  "reflectable": false,
+      "collidesAir": false,
+    },
+  },
+  "requirements": [
+    "supercomputer/2000",
+   	"hyperion/4000",
+  	"advancedmodule/6000",
+  	"depleteduranium/8000",
+  	"unobtainium/10000"
+  ],
+  "category": "turret",
+}
