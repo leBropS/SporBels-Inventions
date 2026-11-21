@@ -12,13 +12,8 @@ beware: mod development not active and very unstable/unreliable. i only work on 
 
 MOD PLANS AND DEVELOPMENT:
 
-Things added in next update (1.2.1):
--Buffed Panzer IV's damage
--Nerfed T-34's damage (these two changes are done because historically the Pz. IV has a superior gun.)
--Added the AMX ELC bis
--Added the AMX 13 75, including a lore accurate version (SPRITE MISSING! Open for sprites)
--Added the Lore Accurate LT vz. 38
--New Apathy turret!
+Things added in next update (1.2.2):
+nothing yet
 
 Planned high-priority things for the mod:
 
@@ -34,7 +29,8 @@ Planned medium-priority things for the mod:
 -Warden turret (better phantom)
 -More maps
 -More infantry variants
--Lore Accurate Striker Eureka
+-More uses for blood and flesh
+-New jet fighters
 
 Planned low-priority things for the mod:
 
