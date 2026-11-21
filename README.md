@@ -1,4 +1,4 @@
-I am requesting YOU for help.
+I am requesting **YOU** for help.
 
 I plan to add a new campaign called Thrahe.
 I need your help to add the planet and levels to it. I would love to see code in .hjson that you would send me. And if you cannot, atleast creating maps with the mod is good enough.
@@ -8,14 +8,14 @@ Once you have ideas and maps done, make sure to contact me in any way.
 Also when you are making maps, you should know this mod is unfinished. I plan to add tanks, helicopters and more buildings.
 You may also contribute to this mod by adding whatever you want, as long as the creator approves it. Thaaanks :D
 
-beware: mod development not active and very unstable/unreliable. i only work on the mod whenever i feel motivated enough.
+*beware: mod development not active and very unstable/unreliable. i only work on the mod whenever i feel motivated enough.*
 
-MOD PLANS AND DEVELOPMENT:
+**MOD PLANS AND DEVELOPMENT:**
 
 Things added in next update (1.2.2):
 nothing yet
 
-Planned high-priority things for the mod:
+**Planned high-priority things for the mod:**
 
 -A lot of new tanks (spriting is hell fr)
 -Advanced Force Field (4x4 late-game block with a very low down-time to counter nukes)
@@ -23,7 +23,7 @@ Planned high-priority things for the mod:
 -Fun content and sandbox stuff
 -Apathy content
 
-Planned medium-priority things for the mod:
+**Planned medium-priority things for the mod:**
 
 -Helicopters
 -Warden turret (better phantom)
@@ -32,33 +32,33 @@ Planned medium-priority things for the mod:
 -More uses for blood and flesh
 -New jet fighters
 
-Planned low-priority things for the mod:
+**Planned low-priority things for the mod:**
 
 -Navy (and boats)
 -Add a lot more new Erekir stuff
 -Adding the campaign
 
 ------------------
-OTHER INFORMATION:
+**OTHER INFORMATION:**
 ------------------
 
 I have took inspiration from other people's stuff, so I'll include most inspirations here (including Real Life).
 
-Filmed Content (including Videos, Anime, Movies and Series'):
+**Filmed Content (including Videos, Anime, Movies and Series'):**
 
 -Neon Genesis Evangelion (Ramiel)
 
-Real Life:
+**Real Life:**
 
 -Most jet fighters in the mod are based off real jet fighters that flew or are flying right now.
 -Most tanks in the mod are based off real tanks that were or are used right now.
 
-Other Mindustry Mods:
+**Other Mindustry Mods:**
 
 -New Horizon (Mitochondria, Singularity)
 -Flameout (Ramiel)
 
-Video Games
+**Video Games:**
 
 -Cosmoteer: Starship Architect & Commander (Hyperion)
 -Raptor: Call of the shadows (F-22FT)
@@ -67,7 +67,7 @@ Video Games
 -Touhou Project (Maglev unit, specifically it's frag weapons)
 -FTL: Faster Than Light (Armageddon turret)
 
-My dreams and content i added because of dreams:
+**My dreams and content i added because of dreams:**
 
 -Ruined Facility Map
 -Mitochondria Unit
