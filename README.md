@@ -10,7 +10,9 @@ You may also contribute to this mod by adding whatever you want, as long as the 
 
 *beware: mod development not active and very unstable/unreliable. i only work on the mod whenever i feel motivated enough.*
 
+------------------
 **MOD PLANS AND DEVELOPMENT:**
+------------------
 
 Things added in next update (1.2.2):
 nothing yet
