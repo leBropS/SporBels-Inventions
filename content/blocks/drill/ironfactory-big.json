@@ -1,29 +1,31 @@
 {
   "type": "GenericCrafter",
-  "name": "Flesh Molder",
-  "description": "Turns blood into fleshy meaty stuff.",
+  "name": "Large Iron Extractor",
+  "description": "An improved version of the Iron Extractor. Creates a large amount of iron.",
   "ambientSound": "loopGrind",
-  "ambientSoundVolume": 0.1,
-  "size": 1,
-  "health": 120,
+  "ambientSoundVolume": 0.5,
+  "size": 2,
+  "health": 380,
   "hasPower": true,
   "hasItems": true,
   "hasLiquids": true,
   "itemCapacity": 20,
-  "craftTime": 30,
+  "craftTime": 60,
   "craftEffect": "smokeCloud",
   "updateEffect": "none",
   "consumes": {
     "power": 1,
     "liquid": {
       "liquid": "blood",
-      "amount": 0.05
+      "amount": 0.2
     }
   },
   "requirements": [
-    "silicon/30"
+    "silicon/32",
+	  "steel/32",
+   	"titanium/16"
   ],
-  "category": "crafting",
-  "research": "bloodpress",
-  "outputItems": [flesh/1]
+  "category": "production",
+  "research": "ironfactory",
+  "outputItems": [iron/2]
 }
