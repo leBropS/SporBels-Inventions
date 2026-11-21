@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "Flesh Molder",
+  "description": "Turns blood into fleshy meaty stuff.",
+  "ambientSound": "loopGrind",
+  "ambientSoundVolume": 0.1,
+  "size": 1,
+  "health": 120,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 20,
+  "craftTime": 30,
+  "craftEffect": "smokeCloud",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 1,
+    "liquid": {
+      "liquid": "blood",
+      "amount": 0.05
+    }
+  },
+  "requirements": [
+    "silicon/30"
+  ],
+  "category": "crafting",
+  "research": "bloodpress",
+  "outputItems": [flesh/1]
+}
