@@ -15,29 +15,41 @@ You may also contribute to this mod by adding whatever you want, as long as the 
 ------------------
 
 Things added in next update (1.2.2):
+
 nothing yet
 
 **Planned high-priority things for the mod:**
 
 -A lot of new tanks (spriting is hell fr)
+
 -Advanced Force Field (4x4 late-game block with a very low down-time to counter nukes)
+
 -Balancing the mod
+
 -Fun content and sandbox stuff
+
 -Apathy content
 
 **Planned medium-priority things for the mod:**
 
 -Helicopters
+
 -Warden turret (better phantom)
+
 -More maps
+
 -More infantry variants
+
 -More uses for blood and flesh
+
 -New jet fighters
 
 **Planned low-priority things for the mod:**
 
 -Navy (and boats)
+
 -Add a lot more new Erekir stuff
+
 -Adding the campaign
 
 ------------------
@@ -53,24 +65,33 @@ I have took inspiration from other people's stuff, so I'll include most inspirat
 **Real Life:**
 
 -Most jet fighters in the mod are based off real jet fighters that flew or are flying right now.
+
 -Most tanks in the mod are based off real tanks that were or are used right now.
 
 **Other Mindustry Mods:**
 
 -New Horizon (Mitochondria, Singularity)
+
 -Flameout (Ramiel)
 
 **Video Games:**
 
 -Cosmoteer: Starship Architect & Commander (Hyperion)
+
 -Raptor: Call of the shadows (F-22FT)
+
 -Starship Troopers: Terran Command (Hyperion Bugs)
+
 -Mindustry's Neoplasm System (Hyperion Bugs)
+
 -Touhou Project (Maglev unit, specifically it's frag weapons)
+
 -FTL: Faster Than Light (Armageddon turret)
 
-**My dreams and content i added because of dreams:**
+**Content i added cuz of random stuff i dreamt about:**
 
 -Ruined Facility Map
+
 -Mitochondria Unit
+
 -Supernova Unit
