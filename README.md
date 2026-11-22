@@ -18,6 +18,8 @@ Things added in next update (1.2.2):
 
 -Large Iron Extractor
 
+-Improved mod description
+
 **Planned high-priority things for the mod:**
 
 -A lot of new tanks (spriting is hell fr)
