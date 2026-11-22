@@ -1,0 +1,24 @@
+{
+  "name": "SporBel's Inventions",
+  "displayName": "SporBel's Inventions",
+  "author": "SporBel (aka. leBropS)",
+  "description":
+  '''
+  Adds a bunch of content to Mindustry including:
+  -Jet Fighters
+  -Tanks
+  -New Items
+  -New Liquids
+  -Nuclear Technology
+  -Sci-fi Stuff
+  -Sandbox Only Units
+  -Random Ideas
+  -And More!
+
+  Feel free to share any ideas, i might consider adding them to plans if i like them.
+  Highly ambitious trashy mod.
+  (Note this mod is serpulo-only, with little Erekir content, but i plan to add new stuff to Erekir as well)
+  '''
+  "version": "1.2.2",
+  "minGameVersion": "152"
+}
